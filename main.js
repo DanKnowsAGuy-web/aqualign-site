@@ -120,19 +120,40 @@ if (head) {
   setShadow();
 }
 
-// ---- Contact form: endpoint wiring pending deploy — acknowledge locally.
+// ---- Contact form: posts to Formspree (delivers to Dan's inbox); falls back to email if sending fails.
+const FORM_ENDPOINT = 'https://formspree.io/f/mykqjqvp';
+const FALLBACK_EMAIL = 'dan@danknowsaguy.org';
 const form = document.getElementById('contactForm');
 const note = document.getElementById('formNote');
 if (form && note) {
-  form.addEventListener('submit', (ev) => {
+  const tick = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg>';
+  const safe = s => String(s).replace(/[<>&]/g, '');
+  form.addEventListener('submit', async (ev) => {
     ev.preventDefault();
     if (!form.reportValidity()) return;
-    // TODO: wire to form endpoint at deploy (no live email addresses yet).
+    const btn = form.querySelector('button[type="submit"]');
     const first = form.name.value.trim().split(' ')[0] || 'there';
-    note.innerHTML =
-      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6.5"/></svg>' +
-      'Thanks, ' + first.replace(/[<>&]/g, '') + '. Your note is queued for the team; we respond within two business days.';
-    form.querySelector('button[type="submit"]').disabled = true;
+    btn.disabled = true;
+    const label = btn.textContent;
+    btn.textContent = 'Sending...';
+    const fd = new FormData(form);
+    fd.append('_subject', 'AquAlign site inquiry from ' + (form.name.value.trim() || 'a visitor'));
+    fd.append('source', 'AquAlign website contact form');
+    try {
+      const r = await fetch(FORM_ENDPOINT, { method: 'POST', headers: { 'Accept': 'application/json' }, body: fd });
+      if (r.ok) {
+        note.innerHTML = tick + 'Thanks, ' + safe(first) + '. Your note reached the team; we respond within two business days.';
+        form.reset();
+        btn.textContent = 'Sent';
+        return;
+      }
+    } catch (e) { /* fall through to the email fallback */ }
+    const body = ['Name: ' + form.name.value, 'Operation: ' + form.operation.value, 'Email: ' + form.email.value,
+      'Region: ' + form.region.value, 'Operation type: ' + form.type.value, '', form.message.value].join('\n');
+    const mail = 'mailto:' + FALLBACK_EMAIL + '?subject=' + encodeURIComponent('AquAlign inquiry') + '&body=' + encodeURIComponent(body);
+    note.innerHTML = 'That didn\u2019t send. <a href="' + mail + '">Email it to us instead</a> and it will open with your details filled in.';
+    btn.disabled = false;
+    btn.textContent = label;
   });
 }
 
