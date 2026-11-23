@@ -84,195 +84,163 @@
     <h2 class="sec-title">What goes in the line</h2>
     <p class="sec-lede">Plain plumbing. An engineer can check every part of this; the only thing we keep private is the media recipe.</p>
 
-    <div class="anim" data-anim aria-roledescription="step-by-step animation" aria-label="How AquAlign installs and how water moves through it">
-      <div class="anim-frame">
-        <div class="anim-stage">
-          <svg viewBox="0 0 800 500" role="img" aria-labelledby="a1t">
-            <title id="a1t">Cutaway of an AquAlign housing installed in a water line with a service bypass</title>
-            <!-- bypass -->
-            <path d="M262 110 V44 H538 V110" fill="none" stroke="oklch(0.85 0.01 38)" stroke-width="14"/>
-            <path d="M262 110 V44 H538 V110" fill="none" stroke="#fff" stroke-width="8"/>
-            <polygon points="388,32 412,56 412,32 388,56" fill="oklch(0.22 0.015 38)"/>
-            <text x="400" y="22" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">bypass valve (closed) for service</text>
-            <!-- main line -->
-            <rect x="0" y="97" width="322" height="26" fill="oklch(0.95 0.015 225)"/>
-            <rect x="478" y="97" width="322" height="26" fill="oklch(0.95 0.015 225)"/>
-            <path d="M0 96 H322 M0 124 H322 M478 96 H800 M478 124 H800" stroke="oklch(0.22 0.015 38)" stroke-width="2.5"/>
-            <polygon points="280,100 300,120 300,100 280,120" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-            <polygon points="500,100 520,120 520,100 500,120" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-            <text x="20" y="84" class="mono" font-size="14" font-weight="500" fill="oklch(0.22 0.015 38)">IN</text>
-            <text x="780" y="84" text-anchor="end" class="mono" font-size="14" font-weight="500" fill="oklch(0.22 0.015 38)">OUT</text>
-            <!-- housing -->
-            <rect x="336" y="136" width="128" height="306" rx="18" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2.5"/>
-            <rect x="342" y="142" width="116" height="294" rx="14" fill="oklch(0.95 0.015 225)" data-s="2"/>
-            <rect x="316" y="82" width="168" height="58" rx="6" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2.5"/>
-            <text x="400" y="117" text-anchor="middle" font-size="16" font-weight="800" fill="oklch(0.50 0.145 38)">AquAlign</text>
-            <!-- step 1: simple flow -->
-            <path d="M0 110 H316 M484 110 H800" class="flow" stroke="oklch(0.62 0.06 225)" stroke-width="4" fill="none" data-only="1"/>
-            <path d="M0 110 H316 M484 110 H800" class="flow" stroke="oklch(0.62 0.06 225)" stroke-width="4" fill="none" data-only="4"/>
-            <!-- cartridge in housing (steps 2-3) -->
-            <g data-s="2" data-e="3">
-              <rect x="372" y="172" width="56" height="248" rx="6" fill="#fff" stroke="oklch(0.50 0.145 38)" stroke-width="2"/>
-              <rect x="366" y="160" width="68" height="14" rx="3" fill="oklch(0.50 0.145 38)"/>
-              <g fill="oklch(0.93 0.03 38)" stroke="oklch(0.50 0.145 38)" stroke-width="1"><polygon points="390.4,186.8 386.9,191.5 381.1,189.0 380.1,183.5 386.8,182.0"/>
-<polygon points="410.8,187.2 403.1,192.0 396.0,189.2 396.4,184.8 404.7,180.2"/>
-<polygon points="428.4,186.3 423.1,192.0 414.5,188.8 416.5,181.6 421.9,180.7"/>
-<polygon points="392.4,197.0 389.2,202.0 381.4,201.8 379.6,197.9 382.0,192.1 388.8,192.3"/>
-<polygon points="407.7,197.7 406.5,204.2 399.4,205.4 393.8,199.8 398.5,193.6 406.7,193.6"/>
-<polygon points="428.8,197.0 425.2,202.2 416.0,204.2 412.3,199.9 415.7,193.1 426.2,193.9"/>
-<polygon points="390.6,213.1 386.3,219.9 379.8,217.0 380.0,211.7 387.3,207.9"/>
-<polygon points="406.9,214.2 400.4,221.5 395.4,218.0 395.2,210.9 401.5,208.7"/>
-<polygon points="422.5,209.9 420.2,215.1 412.1,215.6 412.3,208.4 417.9,206.6"/>
-<polygon points="393.4,224.5 389.7,232.3 382.4,231.7 379.5,225.1 384.7,218.8 392.0,218.8"/>
-<polygon points="411.9,222.9 407.8,227.4 401.2,228.1 397.8,222.3 402.1,216.5 406.4,217.6"/>
-<polygon points="429.9,225.0 423.9,227.6 415.4,225.9 415.8,219.3 423.6,217.5"/>
-<polygon points="392.7,235.9 386.2,240.5 378.6,239.1 380.2,231.7 387.2,231.4"/>
-<polygon points="409.5,238.9 406.4,243.1 398.5,242.7 396.0,238.7 399.6,232.9 405.9,233.7"/>
-<polygon points="425.7,234.7 421.1,240.9 413.9,236.8 413.8,232.1 419.7,228.6"/>
-<polygon points="391.0,250.8 387.7,256.7 380.9,254.4 378.6,251.5 382.5,243.0 388.0,243.9"/>
-<polygon points="404.5,247.8 400.3,254.9 394.5,253.2 393.6,245.9 401.3,243.0"/>
-<polygon points="422.9,251.2 417.6,256.9 407.6,253.1 409.5,244.5 416.7,243.7"/>
-<polygon points="390.2,263.5 387.0,267.1 380.1,267.1 380.5,259.0 385.7,258.7"/>
-<polygon points="406.7,261.8 404.2,268.5 394.6,267.4 393.0,263.5 395.0,258.8 402.3,257.5"/>
-<polygon points="423.9,261.9 419.9,269.3 412.6,267.5 412.7,259.5 419.8,257.6"/>
-<polygon points="393.8,278.7 393.1,282.3 383.6,282.3 378.5,276.6 384.5,273.7 391.5,274.6"/>
-<polygon points="411.5,278.4 408.8,283.8 401.3,281.5 398.0,279.2 402.8,273.1 408.0,273.0"/>
-<polygon points="394.3,291.4 390.1,296.5 380.2,292.6 381.2,285.5 389.1,283.0"/>
-<polygon points="412.0,292.2 406.4,298.5 398.1,298.5 398.5,292.4 400.7,287.0 406.8,288.8"/>
-<polygon points="426.6,293.5 424.1,297.6 417.3,297.4 414.4,289.5 422.3,288.2"/>
-<polygon points="390.0,301.6 387.0,305.5 382.6,305.9 379.5,301.9 380.5,298.1 386.8,296.4"/>
-<polygon points="409.6,306.0 405.0,309.9 397.7,309.4 393.3,303.7 397.7,299.7 406.0,300.0"/>
-<polygon points="428.5,306.3 421.4,311.5 414.7,307.7 414.5,303.4 422.2,300.1"/>
-<polygon points="393.0,317.6 391.9,323.4 381.6,322.2 377.9,318.3 381.7,312.6 390.3,314.3"/>
-<polygon points="409.9,315.8 406.1,321.7 399.8,322.1 397.1,317.2 400.2,311.6 406.0,313.2"/>
-<polygon points="425.5,317.6 421.1,323.5 414.3,320.5 415.1,312.3 423.6,310.3"/>
-<polygon points="395.5,331.2 388.2,337.3 384.1,338.9 379.1,332.6 382.8,325.2 389.0,326.2"/>
-<polygon points="410.8,329.3 406.3,337.1 399.8,336.0 397.3,327.5 404.3,324.0"/>
-<polygon points="393.6,344.5 391.9,351.2 384.3,352.3 377.7,344.1 382.6,341.1 391.8,339.9"/>
-<polygon points="413.7,343.1 412.3,346.5 401.6,348.0 398.4,342.0 399.0,337.5 409.7,336.9"/>
-<polygon points="392.0,358.8 388.6,365.6 379.5,361.0 380.6,354.8 387.7,352.8"/>
-<polygon points="406.7,358.8 404.6,363.2 397.9,363.2 395.5,359.3 398.1,354.4 403.6,353.4"/>
-<polygon points="420.0,357.7 417.5,363.3 410.1,360.1 409.9,354.0 417.2,353.0"/>
-<polygon points="391.5,370.9 386.4,378.4 378.9,374.1 378.0,369.7 388.9,367.3"/>
-<polygon points="409.0,370.1 402.0,377.0 395.3,373.7 395.9,366.3 402.0,362.9"/>
-<polygon points="427.5,370.5 422.3,376.4 414.4,374.4 414.7,365.8 420.8,363.3"/>
-<polygon points="394.5,382.7 391.4,388.3 380.2,385.2 379.1,381.0 390.3,378.1"/>
-<polygon points="413.5,384.9 408.3,390.1 401.4,389.1 401.3,379.8 407.5,378.3"/>
-<polygon points="392.0,399.0 388.4,401.8 379.7,401.1 381.7,394.0 386.9,393.1"/>
-<polygon points="408.6,393.6 405.2,397.1 400.8,397.8 396.0,394.7 399.3,389.7 404.7,389.0"/>
-<polygon points="428.0,394.2 420.5,399.8 413.2,396.7 412.3,391.7 424.2,390.1"/>
-<polygon points="391.6,410.8 387.7,415.5 381.5,415.3 378.6,410.4 383.3,404.5 387.0,404.5"/>
-<polygon points="408.6,410.6 404.0,416.0 397.2,416.2 397.1,407.1 404.5,407.7"/>
-<polygon points="425.3,414.4 419.5,418.6 414.7,417.9 411.3,411.4 415.1,407.5 420.3,405.8"/></g>
+    <div class="scrolly" data-steps="4" data-focal="402,330" data-zoom="0.16" data-endzoom="0" data-cams="0 0 800 600|0 0 800 600|205 238 430 322.5|105 150 590 442.5|20 30 760 570" data-outro="0 0 800 600">
+  <div class="scrolly-sticky">
+    <div class="scrolly-grid">
+      <div class="scrolly-frame">
+        <img class="ph ph-start" src="img/milverton-poultry-unit-2014.jpg" alt="An AquAlign unit plumbed into a poultry house water line, Milverton, Ontario, 2014">
+        <svg viewBox="0 0 800 600" role="img" aria-labelledby="hw-t" preserveAspectRatio="xMidYMid slice">
+          <title id="hw-t">Drawing of the same AquAlign install, opening into a cutaway of the housing and cartridge</title>
+          <defs>
+            <linearGradient id="hw-pipeH" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c3035"/><stop offset=".32" stop-color="#7a828b"/><stop offset=".55" stop-color="#4b5159"/><stop offset="1" stop-color="#202327"/></linearGradient>
+            <linearGradient id="hw-pipeV" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2c3035"/><stop offset=".32" stop-color="#7a828b"/><stop offset=".55" stop-color="#4b5159"/><stop offset="1" stop-color="#202327"/></linearGradient>
+            <linearGradient id="hw-valve" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9ecee"/><stop offset=".4" stop-color="#ffffff"/><stop offset="1" stop-color="#b9bec3"/></linearGradient>
+            <linearGradient id="hw-blue" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b2f78"/><stop offset=".22" stop-color="#2d6fd6"/><stop offset=".4" stop-color="#5b96ee"/><stop offset=".62" stop-color="#2461c6"/><stop offset="1" stop-color="#0a2763"/></linearGradient>
+            <linearGradient id="hw-blk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a4a"/><stop offset=".3" stop-color="#1e1e1e"/><stop offset="1" stop-color="#090909"/></linearGradient>
+            <linearGradient id="hw-steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a9aeb3"/><stop offset=".45" stop-color="#eef0f2"/><stop offset="1" stop-color="#8d9298"/></linearGradient>
+            <linearGradient id="hw-ply" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b78d62"/><stop offset=".5" stop-color="#a77c52"/><stop offset="1" stop-color="#94693f"/></linearGradient>
+            <linearGradient id="hw-glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cfe2f8"/><stop offset=".5" stop-color="#eef5fd"/><stop offset="1" stop-color="#c3d9f4"/></linearGradient>
+            <linearGradient id="hw-cart" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dfeaf2" stop-opacity=".9"/><stop offset=".3" stop-color="#ffffff" stop-opacity=".55"/><stop offset="1" stop-color="#cfdde8" stop-opacity=".9"/></linearGradient>
+            <pattern id="hw-corr" width="16" height="600" patternUnits="userSpaceOnUse"><rect width="16" height="600" fill="#cfd3d7"/><rect width="5" height="600" fill="#bfc4c9"/><rect x="5" width="2" height="600" fill="#e4e7ea"/></pattern>
+            <path id="hw-p1" d="M700 610 V255 H77 V55 H700 V-10"/>
+            <path id="hw-p2" d="M700 610 V255 H466 V538 Q466 548 456 548 H410 Q402 548 402 538 V255 H77 V55 H700 V-10"/>
+            <path id="hw-w1" d="M402 528 C 432 505, 372 478, 402 452 S 432 398, 402 372 S 384 356, 402 344"/>
+            <path id="hw-w2" d="M390 528 C 368 502, 436 474, 412 446 S 370 392, 398 366 S 412 352, 400 344"/>
+            <path id="hw-w3" d="M414 528 C 438 498, 378 488, 390 460 S 430 410, 396 384 S 404 360, 404 344"/>
+          </defs>
+          <!-- wall and plywood, as in the photo -->
+          <rect width="800" height="600" fill="url(#hw-corr)"/>
+          <rect x="0" y="118" width="640" height="288" fill="url(#hw-ply)"/>
+          <g stroke="#8a6440" stroke-opacity=".35" fill="none"><path d="M0 160 C 200 150, 420 172, 640 158 M0 230 C 240 238, 400 220, 640 236 M0 330 C 180 322, 460 344, 640 328"/></g>
+          <rect width="800" height="600" fill="#fbf9f6" opacity=".7" data-s="2" data-e="4"/>
+          <!-- pipes -->
+          <rect x="683" y="-10" width="34" height="620" fill="url(#hw-pipeV)"/>
+          <rect x="60" y="38" width="657" height="34" fill="url(#hw-pipeH)"/>
+          <rect x="60" y="38" width="34" height="236" fill="url(#hw-pipeV)"/>
+          <rect x="60" y="236" width="657" height="38" fill="url(#hw-pipeH)"/>
+          <rect x="52" y="30" width="50" height="50" rx="16" fill="url(#hw-pipeH)"/>
+          <rect x="52" y="228" width="50" height="54" rx="16" fill="url(#hw-pipeH)"/>
+          <rect x="676" y="30" width="48" height="50" rx="5" fill="url(#hw-pipeV)"/>
+          <rect x="676" y="228" width="48" height="54" rx="5" fill="url(#hw-pipeV)"/>
+          <!-- flow, outside view -->
+          <g data-particles="hw-p1" data-n="28" data-speed="120" data-only="1"></g>
+          <g data-particles="hw-p1" data-n="28" data-speed="120" data-only="4"></g>
+          <!-- valves -->
+          <g><rect x="680" y="126" width="40" height="48" rx="5" fill="url(#hw-valve)" stroke="#9aa0a6"/><rect x="648" y="145" width="104" height="10" rx="4" fill="#1b1b1b"/><circle cx="700" cy="150" r="9" fill="#2a2a2a"/></g>
+          <g><rect x="176" y="232" width="78" height="46" rx="7" fill="url(#hw-valve)" stroke="#9aa0a6"/><circle cx="215" cy="255" r="16" fill="#1c1c1c"/><rect x="198" y="251" width="34" height="8" rx="3" fill="#3a3a3a"/></g>
+          <g><rect x="541" y="232" width="78" height="46" rx="7" fill="url(#hw-valve)" stroke="#9aa0a6"/><circle cx="580" cy="255" r="16" fill="#1c1c1c"/><rect x="563" y="251" width="34" height="8" rx="3" fill="#3a3a3a"/></g>
+          <rect x="268" y="236" width="44" height="38" fill="url(#hw-valve)" opacity=".9"/><rect x="492" y="236" width="44" height="38" fill="url(#hw-valve)" opacity=".9"/>
+          <!-- solid bowl (step 1) -->
+          <g data-only="1">
+            <path d="M330 328 H475 V535 Q475 558 452 558 H353 Q330 558 330 535 Z" fill="url(#hw-blue)"/>
+            <rect x="352" y="336" width="9" height="210" rx="4" fill="#fff" opacity=".22"/>
+            <rect x="440" y="336" width="4" height="210" rx="2" fill="#fff" opacity=".12"/>
+          </g>
+          <!-- cutaway (steps 2 to 4) -->
+          <g data-s="2" data-e="4">
+            <path d="M330 328 H475 V535 Q475 558 452 558 H353 Q330 558 330 535 Z" fill="url(#hw-glass)" stroke="#1f5fc4" stroke-width="5"/>
+            <path d="M336 330 V535 M469 330 V535" stroke="#0b2f78" stroke-width="1.5" opacity=".5"/>
+            <rect x="395" y="300" width="14" height="42" fill="#e9ebee" stroke="#b8bdc2"/>
+            <rect x="356" y="336" width="92" height="20" rx="4" fill="#f4f5f6" stroke="#b8bdc2"/>
+            <rect x="362" y="354" width="80" height="176" fill="url(#hw-cart)" stroke="#9fb3c4" stroke-width="2"/>
+            <g fill="#f7efe4" stroke="#c4a888" stroke-width=".8" opacity=".95"><polygon points="380.6,368.7 378.1,373.3 370.5,373.6 367.7,369.9 369.4,365.0 378.1,364.9"/><polygon points="393.0,367.3 391.2,371.5 387.9,372.7 383.7,371.4 381.9,365.9 386.8,363.0 392.1,364.0"/><polygon points="407.3,370.7 404.5,374.9 398.0,375.1 396.5,366.3 403.7,363.1"/><polygon points="421.0,367.8 418.3,372.1 413.7,372.7 410.7,368.6 411.9,365.1 418.6,365.3"/><polygon points="433.1,367.6 432.3,371.0 428.1,372.7 424.2,370.5 423.5,366.1 428.4,361.8 431.2,362.5"/><polygon points="381.0,376.7 375.6,382.6 370.3,380.7 367.8,375.5 375.8,372.1"/><polygon points="395.7,378.1 393.2,384.0 389.6,385.6 384.8,381.0 384.5,376.3 389.3,373.7 393.2,375.4"/><polygon points="407.8,378.3 405.5,382.5 402.5,382.3 398.6,379.1 397.7,376.3 402.9,372.4 406.1,372.7"/><polygon points="419.6,376.7 416.8,383.1 412.2,381.0 411.1,375.4 417.3,373.6"/><polygon points="437.0,380.1 434.4,383.5 426.0,384.8 421.9,380.0 424.9,375.0 434.1,373.9"/><polygon points="380.4,390.6 378.1,396.8 374.9,396.5 369.0,394.8 369.2,388.9 371.7,386.2 377.2,385.8"/><polygon points="396.0,391.5 393.9,396.3 388.0,397.7 384.1,391.8 387.1,386.3 393.2,386.0"/><polygon points="407.8,390.4 404.5,395.4 398.4,392.9 398.2,388.1 404.3,385.5"/><polygon points="420.1,388.1 419.0,393.1 414.2,392.6 409.3,387.4 411.5,385.5 419.7,385.2"/><polygon points="434.5,391.1 435.1,394.8 429.5,397.1 423.8,393.2 425.0,388.6 426.5,386.4 431.9,385.6"/><polygon points="378.1,400.8 375.6,404.0 372.4,406.7 368.0,403.9 368.3,397.6 370.4,396.5 376.6,397.1"/><polygon points="392.1,401.8 389.6,406.5 386.9,406.5 380.2,403.1 380.9,398.3 386.9,393.9 391.9,397.1"/><polygon points="405.8,403.2 405.1,405.6 401.3,407.1 394.8,403.0 395.4,400.2 398.4,397.2 403.2,397.2"/><polygon points="419.3,400.4 416.3,406.6 409.2,402.7 410.5,395.2 416.4,394.6"/><polygon points="436.8,401.1 430.4,406.7 424.7,405.2 425.3,397.7 432.9,395.7"/><polygon points="378.4,411.7 376.1,415.4 370.6,414.6 367.6,410.3 369.7,407.4 376.4,407.8"/><polygon points="391.9,411.2 390.2,415.7 382.8,416.4 381.8,412.0 383.1,407.8 389.9,408.7"/><polygon points="405.2,410.1 403.4,413.8 398.4,415.3 394.4,411.8 395.0,408.0 399.6,406.9 403.6,407.0"/><polygon points="420.6,413.1 415.2,419.3 408.6,417.4 408.4,408.1 414.6,407.7"/><polygon points="433.0,415.5 431.1,419.2 423.1,418.6 423.4,410.3 429.0,408.0"/><polygon points="380.2,421.9 376.2,427.6 370.5,426.5 368.6,424.1 369.2,419.6 377.3,418.8"/><polygon points="392.1,423.8 392.1,426.5 384.6,427.2 382.1,423.3 384.9,418.9 390.0,419.7"/><polygon points="410.8,421.2 406.1,424.7 400.1,425.5 396.6,424.9 396.3,418.3 402.9,417.0 406.1,417.5"/><polygon points="426.3,421.6 423.9,424.8 415.5,425.3 411.4,422.2 411.8,418.8 415.7,416.8 422.1,417.7"/><polygon points="440.1,421.2 438.1,425.3 434.4,427.2 428.9,423.9 428.0,420.7 433.2,417.3 436.7,417.4"/><polygon points="382.2,431.5 377.7,437.2 369.3,436.3 367.5,430.8 372.5,428.2 378.5,427.5"/><polygon points="397.4,433.8 392.0,437.1 384.8,435.3 384.5,430.6 392.6,428.6"/><polygon points="413.1,433.3 410.3,438.6 400.5,437.1 401.6,430.2 407.1,428.3"/><polygon points="427.9,433.3 425.4,437.7 418.2,439.3 416.1,435.7 418.6,429.3 423.5,428.7"/><polygon points="443.7,432.1 439.6,436.1 432.4,436.3 429.1,431.5 434.3,426.8 440.2,428.8"/><polygon points="382.0,446.1 376.9,450.0 372.1,450.2 367.8,444.2 371.9,441.4 378.8,441.2"/><polygon points="393.4,443.6 391.8,447.3 383.6,446.0 383.8,441.3 389.3,439.6"/><polygon points="411.5,444.8 408.9,447.4 403.0,447.6 397.7,446.8 398.2,441.9 403.4,439.0 407.4,439.8"/><polygon points="425.7,445.8 421.9,449.7 416.2,448.8 413.1,446.5 415.6,442.5 423.6,441.6"/><polygon points="437.9,447.3 436.0,450.5 429.0,450.0 427.5,446.9 431.8,441.6 435.2,440.9"/><polygon points="377.8,456.0 376.8,460.2 370.6,461.7 367.4,457.8 367.1,454.8 372.7,451.1 374.7,451.0"/><polygon points="393.0,457.0 388.5,463.3 384.8,464.8 381.4,457.3 384.3,453.8 390.9,453.6"/><polygon points="405.8,457.4 401.9,463.5 397.7,462.7 394.5,456.9 399.0,452.5 404.4,453.3"/><polygon points="422.9,459.5 419.9,464.4 414.6,464.5 409.8,462.8 410.9,455.3 413.3,454.3 419.6,454.7"/><polygon points="436.9,454.5 433.3,460.3 431.3,460.3 426.2,456.8 426.2,454.4 430.0,450.7 434.2,451.8"/><polygon points="380.3,471.7 377.0,475.7 370.4,477.6 368.2,474.6 369.0,467.6 371.6,467.0 378.9,467.7"/><polygon points="393.6,469.2 391.5,472.9 382.6,472.4 383.1,465.1 388.5,464.3"/><polygon points="407.8,471.0 404.8,474.0 400.5,475.1 396.5,474.1 397.1,469.0 400.0,464.4 406.0,465.1"/><polygon points="421.1,469.3 419.3,474.8 415.4,476.3 410.9,473.3 411.1,467.8 415.1,464.8 417.6,466.0"/><polygon points="435.0,468.1 432.2,474.5 426.5,473.8 422.4,472.3 423.4,466.4 426.8,464.9 433.8,465.2"/><polygon points="383.1,481.6 378.4,484.8 374.9,484.8 369.4,482.8 368.5,479.5 372.9,476.3 378.9,477.4"/><polygon points="396.4,480.0 391.0,485.4 386.4,483.9 385.1,479.3 391.6,477.2"/><polygon points="411.5,482.6 408.1,486.2 402.1,485.6 400.5,477.5 408.7,476.8"/><polygon points="424.5,480.2 422.9,483.3 418.8,484.5 414.8,481.7 415.0,478.3 417.2,475.7 422.6,476.5"/><polygon points="439.4,483.0 435.2,489.3 428.6,487.3 427.7,479.7 434.0,475.9"/><polygon points="379.9,493.2 377.0,497.1 370.3,498.9 367.4,494.5 366.9,491.7 371.2,487.1 376.8,488.1"/><polygon points="394.1,491.9 388.3,498.4 383.9,496.5 383.7,487.8 390.2,487.1"/><polygon points="407.1,491.5 405.7,495.0 401.0,496.9 396.6,494.5 395.7,490.9 398.8,486.6 405.1,488.2"/><polygon points="423.3,494.5 417.9,500.4 412.7,499.3 408.0,494.3 412.3,489.7 419.0,489.0"/><polygon points="434.1,494.7 432.1,500.6 427.2,499.6 424.6,496.2 424.4,491.0 428.2,490.4 433.5,491.6"/><polygon points="382.0,506.9 378.4,511.7 372.6,513.0 370.0,510.6 369.2,505.1 374.7,501.2 378.7,503.0"/><polygon points="394.4,505.7 392.6,508.7 388.5,508.5 384.9,503.9 386.6,500.4 393.3,501.8"/><polygon points="408.7,507.0 402.5,512.6 396.8,511.1 397.5,504.1 403.2,501.0"/><polygon points="424.5,507.4 422.3,510.1 412.9,509.6 411.7,507.4 413.2,502.2 419.4,502.3"/><polygon points="438.4,506.0 437.4,511.2 430.0,510.4 427.9,508.8 427.0,503.0 429.1,500.2 435.7,500.0"/><polygon points="380.7,516.6 376.5,521.3 369.2,519.7 369.0,512.8 374.1,512.4"/><polygon points="395.2,516.4 389.2,523.6 384.8,521.0 382.9,514.9 391.5,511.6"/><polygon points="409.4,518.5 406.1,523.7 397.4,520.8 398.0,515.8 404.6,512.8"/><polygon points="423.3,517.9 421.1,522.0 415.7,523.7 412.3,520.5 414.0,515.3 415.3,513.8 421.0,514.1"/><polygon points="438.4,515.6 435.2,519.2 430.0,519.6 426.0,517.0 426.1,515.0 430.8,511.3 435.7,513.7"/></g>
+            <rect x="368" y="358" width="6" height="168" fill="#fff" opacity=".55"/>
+            <rect x="358" y="526" width="88" height="18" rx="6" fill="#f4f5f6" stroke="#b8bdc2"/>
+          </g>
+          <g data-particles="hw-p2" data-n="40" data-speed="110" data-s="2" data-e="3"></g>
+          <g data-particles="hw-w1" data-n="6" data-speed="34" data-s="2" data-e="3"></g>
+          <g data-particles="hw-w2" data-n="6" data-speed="30" data-s="2" data-e="3"></g>
+          <g data-particles="hw-w3" data-n="6" data-speed="38" data-s="2" data-e="3"></g>
+          <!-- bracket and head (on top) -->
+          <rect x="355" y="115" width="100" height="108" rx="4" fill="url(#hw-steel)" stroke="#8b9095"/>
+          <circle cx="372" cy="132" r="4" fill="#6f747a"/><circle cx="438" cy="132" r="4" fill="#6f747a"/><circle cx="372" cy="205" r="4" fill="#6f747a"/><circle cx="438" cy="205" r="4" fill="#6f747a"/>
+          <rect x="312" y="222" width="180" height="108" rx="14" fill="url(#hw-blk)"/>
+          <rect x="312" y="304" width="180" height="10" fill="#2b2b2b"/>
+          <rect x="358" y="280" width="88" height="20" rx="2" fill="#f4f4f4"/>
+          <circle cx="368" cy="290" r="5" fill="#2d6fd6"/>
+          <text x="376" y="293" font-size="8" font-weight="700" fill="#1b3d7a">TE AquAlign Systems</text>
+          <!-- step 1 labels -->
+          <g data-only="1" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">
+            <rect x="566" y="546" width="110" height="28" rx="14" fill="#fff"/><text x="621" y="565" text-anchor="middle">water in</text>
+            <rect x="566" y="82" width="110" height="28" rx="14" fill="#fff"/><text x="621" y="101" text-anchor="middle">water out</text>
+            <rect x="476" y="136" width="164" height="28" rx="14" fill="#fff"/><text x="558" y="155" text-anchor="middle">bypass valve: closed</text>
+            <rect x="150" y="292" width="130" height="28" rx="14" fill="#fff"/><text x="215" y="311" text-anchor="middle">isolation valve</text>
+            <rect x="515" y="292" width="130" height="28" rx="14" fill="#fff"/><text x="580" y="311" text-anchor="middle">isolation valve</text>
+          </g>
+          <!-- step 2 labels -->
+          <g data-only="2" class="mono" font-size="10" fill="oklch(0.22 0.015 38)">
+            <path d="M477 352 L 492 330 H500 M444 420 H500 M468 500 H500" stroke="oklch(0.44 0.02 38)" stroke-width=".8" fill="none"/>
+            <rect x="500" y="320" width="128" height="20" rx="10" fill="#fff"/><text x="510" y="334">pressure-rated bowl</text>
+            <rect x="500" y="403" width="128" height="34" rx="10" fill="#fff"/><text x="510" y="417">clear cartridge of</text><text x="510" y="430">crystalline media</text>
+            <rect x="500" y="483" width="128" height="34" rx="10" fill="#fff"/><text x="510" y="497">down the outside,</text><text x="510" y="510">up through the media</text>
+          </g>
+          <!-- step 3 chips -->
+          <g data-only="3" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">
+            <g transform="translate(508 330)"><rect width="176" height="36" rx="18" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M14 18 l6 6 l11 -12" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="40" y="23">Nothing added</text></g>
+            <g transform="translate(508 376)"><rect width="176" height="36" rx="18" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M14 18 l6 6 l11 -12" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="40" y="23">No power</text></g>
+            <g transform="translate(508 422)"><rect width="176" height="36" rx="18" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M14 18 l6 6 l11 -12" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="40" y="23">No moving parts</text></g>
+            <g transform="translate(508 468)"><rect width="176" height="36" rx="18" fill="#fff" stroke="oklch(0.85 0.01 38)" stroke-width="2"/><path d="M16 11 l13 13 M29 11 l-13 13" stroke="oklch(0.50 0.145 38)" stroke-width="3"/><text x="40" y="23">Not a filter</text></g>
+          </g>
+          <!-- step 4: swap and sizing -->
+          <g data-s="4">
+            <g data-fx="rise" data-k="4" data-range=".05,.5">
+              <rect x="562" y="352" width="76" height="20" rx="4" fill="#f4f5f6" stroke="#b8bdc2"/>
+              <rect x="566" y="370" width="68" height="158" fill="url(#hw-cart)" stroke="#9fb3c4" stroke-width="2"/>
+              <g fill="#f7efe4" stroke="#c4a888" stroke-width=".8"><polygon points="578.8,378.0 577.2,381.9 569.7,383.1 567.8,378.8 570.7,372.6 576.0,372.0"/><polygon points="595.7,378.9 595.5,382.3 587.8,383.1 583.3,381.4 582.5,374.4 586.4,374.1 594.7,373.7"/><polygon points="611.5,379.4 606.0,385.1 600.2,381.8 600.5,376.8 607.3,374.6"/><polygon points="625.0,376.8 622.8,380.7 616.3,381.0 614.2,378.1 617.7,371.8 622.2,372.1"/><polygon points="581.6,386.1 576.9,391.8 567.4,389.7 568.3,385.7 575.5,383.4"/><polygon points="595.4,388.8 591.0,394.2 585.3,392.3 584.3,387.1 591.3,383.8"/><polygon points="609.4,387.5 608.0,392.5 601.1,392.5 598.2,387.5 600.2,384.8 605.7,384.7"/><polygon points="625.3,389.3 620.7,394.3 616.0,395.2 611.0,391.0 611.7,388.4 615.4,385.4 621.5,386.4"/><polygon points="580.5,397.4 577.6,402.4 570.3,402.7 567.0,397.0 570.8,394.6 577.7,395.0"/><polygon points="596.9,399.6 592.2,404.1 585.1,404.2 584.3,401.1 586.1,396.8 593.3,395.7"/><polygon points="613.6,397.6 610.4,402.2 605.1,403.9 601.3,398.8 602.2,395.6 610.5,394.0"/><polygon points="630.7,398.9 626.6,403.0 619.9,404.9 616.9,400.1 619.3,394.8 625.0,394.3"/><polygon points="579.6,411.6 579.4,416.2 571.9,417.0 568.4,413.2 570.0,408.6 578.4,407.6"/><polygon points="594.1,410.7 591.8,414.8 585.9,415.0 583.7,412.4 584.1,407.6 590.3,406.8"/><polygon points="609.0,410.5 606.9,415.9 600.5,415.9 596.8,412.3 600.1,408.1 607.9,407.6"/><polygon points="624.7,412.2 623.3,414.4 617.1,416.0 611.8,413.6 612.6,409.3 618.5,405.8 621.9,407.7"/><polygon points="578.6,422.6 576.5,426.2 567.2,425.1 568.3,420.1 573.7,416.5"/><polygon points="593.3,422.7 591.3,427.6 584.8,427.3 581.8,424.9 583.4,420.9 585.5,419.6 592.0,420.7"/><polygon points="606.0,421.2 604.4,424.3 601.2,425.2 596.0,423.0 596.8,420.0 600.7,415.9 602.9,416.8"/><polygon points="622.8,423.1 617.2,428.2 609.0,427.1 610.2,419.9 619.3,417.8"/><polygon points="638.1,425.5 633.0,430.0 627.5,427.4 627.0,421.2 633.1,417.9"/><polygon points="580.8,432.4 578.9,436.4 571.4,437.2 567.7,433.3 569.1,429.7 574.5,427.6 576.6,428.7"/><polygon points="596.8,433.4 593.5,436.5 586.1,437.4 584.1,433.7 586.4,429.8 592.0,428.5"/><polygon points="609.5,432.5 606.4,436.7 600.2,435.7 601.3,429.5 607.5,429.0"/><polygon points="624.3,434.4 618.9,441.1 615.1,438.9 614.5,429.2 620.9,429.1"/><polygon points="639.0,434.3 632.6,441.3 626.2,438.1 627.4,432.4 635.6,430.2"/><polygon points="578.6,444.4 576.1,448.8 572.5,448.7 569.7,447.0 567.7,442.6 571.8,440.1 577.2,441.1"/><polygon points="593.7,445.0 590.1,450.4 586.5,449.4 582.5,446.8 584.7,442.9 589.7,441.9"/><polygon points="608.1,442.5 604.8,446.8 599.2,447.6 597.3,443.3 600.5,438.4 606.5,439.7"/><polygon points="626.4,443.7 618.7,448.3 613.5,447.2 614.0,441.9 621.3,440.2"/><polygon points="580.6,456.6 576.4,459.7 571.3,460.2 566.6,456.5 569.1,452.7 571.3,449.8 577.2,450.3"/><polygon points="593.1,454.3 590.3,459.3 586.0,458.8 583.3,457.0 582.1,453.5 586.3,449.6 591.3,450.9"/><polygon points="609.6,455.9 607.6,460.6 597.5,457.3 598.4,453.0 605.2,451.8"/><polygon points="623.8,454.8 619.6,460.3 614.8,460.0 613.0,456.2 614.0,450.9 620.3,450.6"/><polygon points="581.0,467.8 575.4,472.2 570.1,472.2 568.5,463.7 578.5,462.7"/><polygon points="595.4,465.3 593.3,469.9 586.5,470.2 584.3,468.1 584.6,463.4 590.0,462.2 592.8,462.5"/><polygon points="608.6,468.9 607.4,472.5 601.6,474.6 596.9,466.9 601.4,461.6 607.1,463.6"/><polygon points="624.3,467.9 621.7,469.5 614.3,470.4 610.9,467.7 613.8,463.0 619.4,462.2"/><polygon points="635.6,466.3 633.1,470.9 626.2,470.2 625.6,463.7 631.0,461.2"/><polygon points="579.7,481.5 578.4,482.6 571.0,485.1 568.6,481.6 569.1,478.4 571.2,476.1 579.2,477.2"/><polygon points="593.5,478.7 591.2,483.4 585.9,484.1 583.5,478.5 586.6,473.0 589.5,473.6"/><polygon points="608.4,477.9 604.8,481.4 598.9,482.5 595.4,479.1 597.2,474.1 605.7,474.2"/><polygon points="620.4,481.0 620.1,486.2 615.9,487.1 609.9,482.0 610.5,478.3 613.4,475.2 619.2,476.9"/><polygon points="636.3,478.2 630.9,485.7 624.7,482.0 623.9,477.1 630.4,473.9"/><polygon points="576.9,489.3 574.1,492.4 569.6,492.7 567.3,487.7 568.2,485.4 575.9,485.4"/><polygon points="591.7,490.2 587.2,495.3 579.5,493.5 581.4,487.5 589.9,486.5"/><polygon points="609.1,490.4 609.1,495.4 600.8,496.8 597.2,494.1 595.6,488.9 599.4,486.4 606.7,488.2"/><polygon points="625.1,492.1 621.4,497.0 614.9,497.5 613.0,491.5 613.6,488.1 621.8,488.1"/><polygon points="580.1,501.3 577.2,505.8 572.2,507.9 568.5,505.1 566.6,501.4 573.4,497.6 576.4,498.3"/><polygon points="593.0,501.4 592.1,504.8 587.9,505.7 583.5,502.4 583.2,499.0 586.8,497.3 590.5,496.8"/><polygon points="610.2,503.9 603.7,506.5 598.4,505.3 595.1,500.3 604.1,498.5"/><polygon points="624.0,504.7 622.5,507.0 615.0,508.7 612.3,506.5 612.7,501.9 614.5,497.8 623.2,500.4"/><polygon points="580.7,511.5 577.3,516.4 572.1,516.4 567.7,514.8 568.3,510.2 572.3,507.9 577.0,509.1"/><polygon points="593.1,517.3 588.7,521.9 584.2,521.0 582.9,513.9 588.9,509.5"/><polygon points="609.9,513.2 607.3,518.3 595.3,515.8 598.6,510.7 605.3,509.7"/><polygon points="624.4,514.8 624.2,519.7 619.2,522.1 613.1,516.9 614.0,512.9 616.4,511.4 621.8,511.1"/></g>
+              <rect x="562" y="524" width="76" height="18" rx="6" fill="#f4f5f6" stroke="#b8bdc2"/>
+              <path d="M556 448 C 530 448, 505 448, 486 448" stroke="oklch(0.50 0.145 38)" stroke-width="2.5" stroke-dasharray="5 5" fill="none"/>
+              <polygon points="488,440 474,448 488,456" fill="oklch(0.50 0.145 38)"/>
+              <rect x="516" y="552" width="168" height="30" rx="15" fill="#fff"/>
+              <text x="600" y="572" text-anchor="middle" font-size="13" font-weight="700" fill="oklch(0.22 0.015 38)">fresh cartridge, on schedule</text>
             </g>
-            <rect x="372" y="172" width="56" height="248" rx="6" fill="none" stroke="oklch(0.50 0.145 38)" stroke-width="2" stroke-dasharray="6 6" data-s="4"/>
-            <!-- internal flow (steps 2-3) -->
-            <g data-s="2" data-e="3">
-              <path d="M0 110 H348 V428 Q348 432 352 432 H396 Q400 432 400 428 V150 Q400 110 440 110 H800" class="flow" stroke="oklch(0.62 0.06 225)" stroke-width="4" fill="none"/>
-              <polygon points="341,290 355,290 348,306" fill="oklch(0.62 0.06 225)"/>
-              <polygon points="393,306 407,306 400,290" fill="oklch(0.62 0.06 225)"/>
+            <g data-fx="fade" data-k="4" data-range=".35,.8" class="mono" font-size="12" fill="oklch(0.22 0.015 38)">
+              <path d="M110 214 V222 H690 V214" stroke="oklch(0.50 0.145 38)" stroke-width="2" fill="none"/>
+              <rect x="300" y="186" width="200" height="26" rx="13" fill="#fff"/>
+              <text x="400" y="204" text-anchor="middle">sized to your peak gpm and pipe</text>
             </g>
-            <!-- step 2 labels -->
-            <g data-only="2" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">
-              <path d="M466 180 H500 M430 250 H500 M410 330 H500" stroke="oklch(0.44 0.02 38)" stroke-width="1"/>
-              <text x="508" y="184">Pressure-rated housing</text>
-              <text x="508" y="254">Cartridge of crystalline</text>
-              <text x="508" y="270">mineral media</text>
-              <text x="508" y="334">Flow (simplified): down the</text>
-              <text x="508" y="350">outside, up through the media</text>
-            </g>
-            <!-- step 3 chips -->
-            <g data-only="3">
-              <g transform="translate(512 176)"><rect width="262" height="42" rx="21" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M18 21 l7 7 l13 -14" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="50" y="27" font-size="16" font-weight="700" fill="oklch(0.22 0.015 38)">Nothing added</text></g>
-              <g transform="translate(512 232)"><rect width="262" height="42" rx="21" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M18 21 l7 7 l13 -14" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="50" y="27" font-size="16" font-weight="700" fill="oklch(0.22 0.015 38)">No power, no wiring</text></g>
-              <g transform="translate(512 288)"><rect width="262" height="42" rx="21" fill="#fff" stroke="oklch(0.45 0.10 145)" stroke-width="2"/><path d="M18 21 l7 7 l13 -14" stroke="oklch(0.45 0.10 145)" stroke-width="3" fill="none"/><text x="50" y="27" font-size="16" font-weight="700" fill="oklch(0.22 0.015 38)">No moving parts</text></g>
-              <g transform="translate(512 344)"><rect width="262" height="42" rx="21" fill="#fff" stroke="oklch(0.85 0.01 38)" stroke-width="2"/><path d="M20 13 l16 16 M36 13 l-16 16" stroke="oklch(0.50 0.145 38)" stroke-width="3"/><text x="50" y="27" font-size="16" font-weight="700" fill="oklch(0.22 0.015 38)">Not a filter</text></g>
-            </g>
-            <!-- step 4: cartridge swap and sizing -->
-            <g data-s="4">
-              <path d="M436 300 C 500 300, 560 330, 606 330" fill="none" stroke="oklch(0.50 0.145 38)" stroke-width="2" stroke-dasharray="4 5"/>
-              <polygon points="604,322 620,330 604,338" fill="oklch(0.50 0.145 38)"/>
-              <rect x="620" y="210" width="56" height="230" rx="6" fill="#fff" stroke="oklch(0.50 0.145 38)" stroke-width="2"/>
-              <rect x="614" y="198" width="68" height="14" rx="3" fill="oklch(0.50 0.145 38)"/>
-              <g fill="oklch(0.93 0.03 38)" stroke="oklch(0.50 0.145 38)" stroke-width="1"><polygon points="639.8,223.1 637.9,228.8 627.5,228.4 628.2,218.6 634.8,219.0"/>
-<polygon points="657.0,223.2 650.8,230.2 644.0,228.5 644.8,219.7 651.5,218.9"/>
-<polygon points="671.5,222.7 666.6,228.8 661.6,226.8 662.3,219.2 667.1,217.6"/>
-<polygon points="637.0,241.6 635.4,244.4 630.0,246.8 625.5,240.1 628.6,235.1 634.8,235.8"/>
-<polygon points="657.7,237.8 654.9,241.8 646.9,243.3 642.7,238.2 644.4,235.5 654.3,235.1"/>
-<polygon points="673.9,239.8 668.2,245.7 661.7,244.1 662.3,237.0 670.8,234.5"/>
-<polygon points="643.1,253.7 636.9,257.5 628.2,254.8 625.9,249.5 636.5,244.8"/>
-<polygon points="659.7,248.6 653.9,255.4 645.2,253.6 647.9,246.4 654.5,245.0"/>
-<polygon points="640.6,264.5 637.4,271.5 628.0,269.9 628.9,261.8 636.2,259.2"/>
-<polygon points="657.4,266.1 654.3,270.6 645.3,268.6 644.9,262.6 654.7,258.1"/>
-<polygon points="674.9,260.9 671.2,268.3 664.9,268.1 660.7,262.1 664.8,256.7 670.5,257.7"/>
-<polygon points="639.5,280.3 635.6,283.3 630.2,284.4 626.6,277.7 630.5,274.0 634.8,271.7"/>
-<polygon points="657.5,277.5 653.8,279.8 644.7,281.3 642.8,278.0 647.2,272.7 654.7,272.9"/>
-<polygon points="676.4,276.5 673.1,282.2 665.6,282.6 661.3,276.5 663.2,273.6 670.4,273.8"/>
-<polygon points="642.2,292.6 635.9,296.7 626.0,294.5 628.0,288.0 638.7,285.1"/>
-<polygon points="661.0,290.3 655.8,297.0 648.4,296.4 645.2,292.8 647.1,286.2 655.5,284.9"/>
-<polygon points="640.8,300.0 635.7,305.9 629.3,303.8 627.7,297.6 634.2,296.3"/>
-<polygon points="657.7,303.8 655.4,308.2 648.3,307.9 645.4,302.1 647.4,299.8 655.2,298.0"/>
-<polygon points="674.6,301.1 670.7,305.5 664.8,304.8 662.3,302.0 663.4,297.5 670.1,295.0"/>
-<polygon points="640.4,316.9 638.1,319.8 631.9,321.7 626.1,315.1 627.9,312.1 638.5,312.1"/>
-<polygon points="657.7,315.2 652.4,320.8 645.9,316.5 645.1,312.9 654.8,309.8"/>
-<polygon points="678.9,317.0 675.6,323.7 664.2,320.3 662.2,315.8 671.9,313.3"/>
-<polygon points="642.6,333.1 639.4,337.1 629.4,337.5 626.0,331.5 630.0,327.4 638.3,328.2"/>
-<polygon points="655.4,329.8 653.7,334.7 647.4,333.2 644.3,326.8 652.9,324.4"/>
-<polygon points="673.5,330.9 671.4,335.9 662.1,337.3 659.5,331.6 664.6,327.0 669.0,327.1"/>
-<polygon points="638.2,342.0 635.6,346.8 628.7,345.3 627.0,340.8 630.3,335.0 634.5,335.3"/>
-<polygon points="654.9,342.2 650.9,346.5 643.0,345.6 642.4,340.4 649.0,336.9"/>
-<polygon points="674.7,345.2 670.6,351.5 664.9,349.9 658.7,343.2 662.5,338.8 671.2,340.6"/>
-<polygon points="641.4,358.4 639.6,361.8 629.1,362.0 625.5,357.7 629.7,352.0 639.4,350.8"/>
-<polygon points="661.1,355.3 655.9,359.0 647.7,357.6 648.1,351.8 655.7,348.5"/>
-<polygon points="640.2,371.6 634.0,377.2 628.5,374.4 629.2,366.0 636.9,364.3"/>
-<polygon points="656.8,367.5 651.2,370.8 643.5,368.8 642.5,364.4 649.2,361.6"/>
-<polygon points="674.1,367.7 669.8,373.6 664.5,375.3 659.8,368.5 664.0,363.3 672.2,364.2"/>
-<polygon points="640.5,380.5 635.2,385.0 627.6,384.2 628.3,376.9 634.9,375.7"/>
-<polygon points="657.9,384.3 656.0,388.2 645.5,384.9 645.5,380.8 654.9,377.2"/>
-<polygon points="674.1,384.2 669.3,390.5 662.4,387.0 663.9,378.7 670.2,377.5"/>
-<polygon points="641.9,392.5 641.7,397.3 629.9,397.7 627.8,392.6 630.2,388.6 641.9,388.4"/>
-<polygon points="664.3,394.7 658.5,399.1 649.0,398.3 648.3,390.5 660.2,388.0"/>
-<polygon points="640.0,409.0 636.6,413.1 628.1,411.9 625.7,408.3 631.4,403.9 637.5,404.5"/>
-<polygon points="659.1,409.8 655.6,413.0 643.6,410.4 643.6,406.2 653.4,404.7"/>
-<polygon points="678.2,407.6 672.8,412.6 662.3,409.7 661.9,403.9 672.1,401.1"/>
-<polygon points="643.2,419.7 639.0,426.4 630.4,426.8 627.3,420.6 630.3,416.8 638.1,416.5"/>
-<polygon points="657.3,419.0 652.9,425.8 647.5,424.0 645.9,416.3 653.9,415.4"/>
-<polygon points="674.1,417.9 672.0,421.5 665.9,421.1 661.5,417.3 662.4,413.5 671.3,412.4"/></g>
-              <text x="648" y="470" text-anchor="middle" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Fresh cartridge</text>
-              <text x="648" y="488" text-anchor="middle" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">on a set schedule</text>
-              <path d="M30 150 V170 M300 150 V170 M30 160 H300" stroke="oklch(0.22 0.015 38)" stroke-width="1.5"/>
-              <text x="165" y="194" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">sized to your peak flow (gpm)</text>
-              <text x="165" y="212" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">and your pipe size</text>
-            </g>
-          </svg>
-          <div class="anim-bar"><i></i></div>
+          </g>
+        </svg>
+        <img class="ph ph-end" src="img/milverton-poultry-unit-2014.jpg" alt="">
+        <span class="ph-tag ph-tag-start">Photo · poultry house, Milverton, Ontario, 2014</span>
+        <span class="ph-tag ph-tag-end">Back to the real thing · Milverton, 2014</span>
+        <div class="scrolly-bar"><i></i></div>
+      </div>
+      <div class="scrolly-side">
+        <span class="anim-count" aria-live="polite"></span>
+        <div class="anim-cap" data-cap="0">
+          <h3>Start with a real install.</h3>
+          <p>This is an AquAlign unit on the drinking water line of an Ontario poultry house in 2014. Scroll, and we'll take it apart.</p>
         </div>
-        <div class="anim-side">
-          <span class="anim-count" aria-live="polite"></span>
-          <div class="anim-cap" data-cap="1">
-            <h3>It goes in the line you already have.</h3>
-            <p>A housing plumbs into your existing irrigation, drip, fogging or drinker line, with a bypass so you can service it without shutting the water off. Units range from a single poultry house to a center pivot.</p>
-            <p class="verify">Check it: standard pressure-rated water housings, isolation valves and a bypass loop.</p>
-          </div>
-          <div class="anim-cap" data-cap="2">
-            <h3>Water passes over a bed of mineral media.</h3>
-            <p>Inside the housing is a cartridge packed with a proprietary crystalline mineral media. Water moves through the media on its way to your crop or flock.</p>
-            <p class="verify">Check it: a contact chamber. The flow path shown is simplified.</p>
-          </div>
-          <div class="anim-cap" data-cap="3">
-            <h3>Nothing goes into the water.</h3>
-            <p>No chemicals, no additives, no electricity, no moving parts. It is not a filter and it does not remove anything, so it is not a fix for water that needs treatment.</p>
-            <p class="verify">Check it: there is no dosing port, no power supply and nothing to refill but the cartridge.</p>
-          </div>
-          <div class="anim-cap" data-cap="4">
-            <h3>Sized to your flow. Cartridge on a schedule.</h3>
-            <p>Each unit is sized to your peak flow in gallons per minute and your pipe size, so pressure loss stays low. The media cartridge is replaced on a set schedule <span class="pend">◆ interval</span>.</p>
-            <p class="verify">Check it: published pressure-drop curves on each model's spec sheet.</p>
-          </div>
-          <div class="anim-ctrl" role="group" aria-label="Animation steps"></div>
+        <div class="anim-cap" data-cap="1">
+          <h3>It goes in the line you already have.</h3>
+          <p>The housing sits between two isolation valves. A bypass loop with its own valve lets you service it without shutting the water off.</p>
+          <p class="verify">Check it: standard pressure-rated housing, ball valves and a bypass, the same layout as the photo.</p>
         </div>
+        <div class="anim-cap" data-cap="2">
+          <h3>Inside: a cartridge of mineral media.</h3>
+          <p>Water runs down the outside of a clear cartridge, then up through a bed of proprietary crystalline media and out through the head.</p>
+          <p class="verify">Check it: a contact chamber. Flow path drawn from the company's cartridge diagram, simplified.</p>
+        </div>
+        <div class="anim-cap" data-cap="3">
+          <h3>Nothing goes into the water.</h3>
+          <p>No chemicals, no additives, no electricity, no moving parts. It is not a filter and removes nothing, so it is not a fix for water that needs treatment.</p>
+          <p class="verify">Check it: no dosing port, no power supply, nothing to refill but the cartridge.</p>
+        </div>
+        <div class="anim-cap" data-cap="4">
+          <h3>Sized to your flow. Cartridge on a schedule.</h3>
+          <p>Each unit is sized to your peak flow in gallons per minute and your pipe size, so pressure loss stays low. The cartridge is swapped on a set schedule <span class="pend">◆ interval</span>.</p>
+          <p class="verify">Check it: published pressure-drop curve on each model's spec sheet.</p>
+        </div>
+        <div class="anim-cap" data-cap="end">
+          <h3>Back to the barn.</h3>
+          <p>That's all the hardware there is. What matters is what happens downstream, in the plants and animals drinking it.</p>
+        </div>
+        <div class="anim-ctrl" role="group" aria-label="Jump to a step"></div>
+        <p class="scroll-hint">Scroll to move through it, or tap a step.</p>
       </div>
     </div>
+  </div>
+</div>
 
     <div class="working">
       <blockquote class="reveal">
@@ -478,148 +446,182 @@
     <h2 class="sec-title">Where you would see it</h2>
     <p class="sec-lede">The biology on screen is textbook. The numbers are the ones measured above. We show each link as a measured result, not as a proven mechanism.</p>
 
-    <div class="anim" data-anim aria-label="Four places water shows up in plant and animal physiology, with measured results">
-      <div class="anim-frame">
-        <div class="anim-stage" style="background:#fff">
-          <svg viewBox="0 0 800 500" role="img" aria-labelledby="a2t">
-            <title id="a2t">Seed, root and stem, leaf and fruit, and livestock, each with a measured result</title>
+    <div class="scrolly" data-steps="4" data-focal="400,470" data-zoom="0.18" data-endzoom="0.14" data-bulge="0.45" data-cams="0 0 800 600|0 0 800 600|800 0 800 600|0 600 800 600|800 600 800 600" data-outro="0 0 1600 1200">
+  <div class="scrolly-sticky">
+    <div class="scrolly-grid">
+      <div class="scrolly-frame">
+        <img class="ph ph-start" src="img/smith-soy-field-2012.jpg" alt="Young soybean rows on the Smith farm, Utopia, Ontario, June 2012">
+        <svg viewBox="0 0 800 600" role="img" aria-labelledby="bi-t" preserveAspectRatio="xMidYMid slice">
+          <title id="bi-t">Seed, root and stem, leaf and fruit, and livestock, each with a measured result</title>
+          <defs>
+            <linearGradient id="bi-soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a77f58"/><stop offset="1" stop-color="#6f4f33"/></linearGradient>
+            <radialGradient id="bi-seed" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#f6e7c8"/><stop offset=".7" stop-color="#d9b77f"/><stop offset="1" stop-color="#b38a4f"/></radialGradient>
+            <linearGradient id="bi-stem" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f6b25"/><stop offset=".5" stop-color="#5c9c40"/><stop offset="1" stop-color="#2a5f21"/></linearGradient>
+            <linearGradient id="bi-leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6fae4c"/><stop offset="1" stop-color="#3b7a2c"/></linearGradient>
+            <radialGradient id="bi-green" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#b6dd8a"/><stop offset=".6" stop-color="#6fa944"/><stop offset="1" stop-color="#4b7f2c"/></radialGradient>
+            <radialGradient id="bi-red" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#ff9b7a"/><stop offset=".55" stop-color="#e2492c"/><stop offset="1" stop-color="#a92614"/></radialGradient>
+            <linearGradient id="bi-hen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c0773e"/><stop offset="1" stop-color="#7f3f1b"/></linearGradient>
+            <linearGradient id="bi-pipe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b9299"/><stop offset=".4" stop-color="#d6dade"/><stop offset="1" stop-color="#6c737a"/></linearGradient>
+            <path id="bi-s1" d="M110 580 Q 200 520 284 452"/><path id="bi-s2" d="M300 600 Q 312 530 302 468"/><path id="bi-s3" d="M540 580 Q 430 520 318 452"/><path id="bi-s4" d="M40 410 Q 170 400 270 432"/><path id="bi-s5" d="M600 400 Q 440 410 330 432"/>
+            <path id="bi-r1" d="M1130 560 Q 1132 470 1130 400 V160"/><path id="bi-r2" d="M950 520 Q 952 460 950 400 V210"/>
+            <path id="bi-f1" d="M90 1200 C 120 1050, 180 980, 220 900 C 236 870, 246 860, 250 852"/>
+            <path id="bi-d1" d="M900 728 V800"/>
+          </defs>
 
-            <!-- scene 1: seed -->
-            <g data-only="1">
-              <g stroke="oklch(0.62 0.06 225)" stroke-width="3" fill="none" class="flow slow">
-                <path d="M100 160 L150 205"/><path d="M220 120 L222 180"/><path d="M340 160 L290 205"/>
-                <path d="M80 280 L130 270"/><path d="M360 300 L310 290"/><path d="M110 390 L160 340"/>
-              </g>
-              <ellipse cx="222" cy="268" rx="96" ry="62" transform="rotate(-15 222 268)" fill="oklch(0.93 0.03 38)" stroke="oklch(0.50 0.145 38)" stroke-width="3"/>
-              <path d="M170 260 C 200 225, 260 230, 272 270 C 262 300, 205 305, 180 290" fill="oklch(0.95 0.03 145)" stroke="oklch(0.45 0.10 145)" stroke-width="2"/>
-              <path d="M290 296 C 320 330, 300 380, 336 440" class="draw" stroke="oklch(0.45 0.10 145)" stroke-width="6" stroke-linecap="round" fill="none"/>
-              <text x="222" y="100" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">imbibition: the seed takes up water</text>
-              <text x="440" y="150" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">ALFALFA GERMINATION, 10 DAYS</text>
-              <text x="440" y="196" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">AquAlign</text>
-              <rect x="440" y="206" width="264" height="34" fill="oklch(0.45 0.10 145)" class="growx"/>
-              <text x="712" y="232" font-size="24" font-weight="900" fill="oklch(0.45 0.10 145)">98%</text>
-              <text x="440" y="276" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Control</text>
-              <rect x="440" y="286" width="216" height="34" fill="oklch(0.85 0.01 38)" class="growx"/>
-              <text x="664" y="312" font-size="24" font-weight="900" fill="oklch(0.44 0.02 38)">80%</text>
-              <text x="440" y="370" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Field trial · company tray demo</text>
-              <text x="440" y="388" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Arizona · 2012</text>
-            </g>
+          <!-- ===== scene 1: seed (0,0) ===== -->
+          <rect x="0" y="0" width="800" height="600" fill="#fbf8f3"/>
+          <rect x="0" y="360" width="800" height="240" fill="url(#bi-soil)"/>
+          <g fill="#5c4029" opacity=".35"><circle cx="80" cy="420" r="3"/><circle cx="190" cy="500" r="2"/><circle cx="460" cy="540" r="3"/><circle cx="610" cy="470" r="2"/><circle cx="700" cy="560" r="3"/><circle cx="380" cy="580" r="2"/></g>
+          <text x="40" y="56" class="mono" font-size="13" fill="oklch(0.50 0.145 38)" letter-spacing="1">1 · SEED</text>
+          <g data-particles="bi-s1" data-n="4" data-speed="55" data-only="1" data-life="1"></g>
+          <g data-particles="bi-s2" data-n="3" data-speed="45" data-only="1" data-life="1"></g>
+          <g data-particles="bi-s3" data-n="4" data-speed="55" data-only="1" data-life="1"></g>
+          <g data-particles="bi-s4" data-n="4" data-speed="50" data-only="1" data-life="1"></g>
+          <g data-particles="bi-s5" data-n="4" data-speed="50" data-only="1" data-life="1"></g>
+          <path d="M352 462 C 372 500, 360 540, 382 596" stroke="#efe3c9" stroke-width="7" stroke-linecap="round" fill="none" data-fx="draw" data-k="1" data-range=".25,.8"/>
+          <path d="M324 420 C 330 392, 320 368, 330 326" stroke="#4f8a3a" stroke-width="6" stroke-linecap="round" fill="none" data-fx="draw" data-k="1" data-range=".5,.9"/>
+          <g data-fx="fade" data-k="1" data-range=".8,1"><ellipse cx="314" cy="320" rx="20" ry="9" transform="rotate(-20 314 320)" fill="url(#bi-leaf)"/><ellipse cx="348" cy="318" rx="20" ry="9" transform="rotate(18 348 318)" fill="url(#bi-leaf)"/></g>
+          <g data-fx="swell" data-k="1" data-range="0,.6">
+            <ellipse cx="300" cy="440" rx="64" ry="42" transform="rotate(-18 300 440)" fill="url(#bi-seed)" stroke="#8a5a2b" stroke-width="2.5"/>
+            <path d="M262 444 C 280 418, 324 414, 338 438 C 330 460, 290 466, 270 456" fill="#f3f0dc" stroke="#9c8a55" stroke-width="1.5"/>
+          </g>
+          <text x="40" y="330" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">water moves into the seed (imbibition)</text>
+          <text x="470" y="140" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">ALFALFA GERMINATION, 10 DAYS</text>
+          <text x="470" y="186" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">AquAlign</text>
+          <text x="770" y="186" text-anchor="end" font-size="26" font-weight="900" fill="oklch(0.45 0.10 145)" data-fx="count" data-k="1" data-to="98" data-suf="%" data-range=".15,.75">98%</text>
+          <rect x="470" y="196" width="300" height="30" fill="#ece6de"/><rect x="470" y="196" width="294" height="30" fill="oklch(0.45 0.10 145)" data-fx="grow" data-axis="x" data-k="1" data-range=".15,.75"/>
+          <text x="470" y="266" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Control</text>
+          <text x="770" y="266" text-anchor="end" font-size="26" font-weight="900" fill="oklch(0.44 0.02 38)" data-fx="count" data-k="1" data-to="80" data-suf="%" data-range=".15,.75">80%</text>
+          <rect x="470" y="276" width="300" height="30" fill="#ece6de"/><rect x="470" y="276" width="240" height="30" fill="#b9b0a6" data-fx="grow" data-axis="x" data-k="1" data-range=".15,.75"/>
+          <text x="470" y="334" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Field trial · company tray demo · Arizona · 2012</text>
 
-            <!-- scene 2: root and stem -->
-            <g data-only="2">
-              <rect x="30" y="340" width="380" height="140" fill="oklch(0.93 0.03 38)"/>
-              <path d="M30 340 H410" stroke="oklch(0.50 0.145 38)" stroke-width="2"/>
-              <g stroke="oklch(0.50 0.145 38)" stroke-width="2.5" fill="none" stroke-linecap="round">
-                <path d="M120 340 l-30 60 M120 340 l-8 80 M120 340 l25 62 M120 340 l45 40 M120 340 l-50 35"/>
-                <path d="M300 340 l-40 75 M300 340 l-12 105 M300 340 l30 90 M300 340 l60 55 M300 340 l-66 46 M300 340 l14 60"/>
-              </g>
-              <g class="grow">
-                <path d="M120 340 V142" stroke="oklch(0.45 0.10 145)" stroke-width="8"/>
-                <g fill="none" stroke="oklch(0.45 0.10 145)" stroke-width="7" stroke-linecap="round">
-                  <path d="M120 300 Q 80 270 52 290"/><path d="M120 260 Q 165 225 190 248"/><path d="M120 220 Q 78 186 55 205"/><path d="M120 182 Q 160 150 178 168"/>
-                </g>
-                <path d="M120 142 l-10 -24 M120 142 l0 -28 M120 142 l10 -24" stroke="oklch(0.60 0.12 85)" stroke-width="3"/>
-              </g>
-              <g class="grow">
-                <path d="M300 340 V90" stroke="oklch(0.45 0.10 145)" stroke-width="9"/>
-                <g fill="none" stroke="oklch(0.45 0.10 145)" stroke-width="8" stroke-linecap="round">
-                  <path d="M300 305 Q 250 268 216 292"/><path d="M300 258 Q 356 216 388 244"/><path d="M300 210 Q 248 170 218 194"/><path d="M300 164 Q 352 126 376 148"/><path d="M300 122 Q 262 96 246 110"/>
-                </g>
-                <path d="M300 90 l-12 -28 M300 90 l0 -32 M300 90 l12 -28" stroke="oklch(0.60 0.12 85)" stroke-width="3"/>
-              </g>
-              <text x="120" y="472" text-anchor="middle" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Control</text>
-              <text x="300" y="472" text-anchor="middle" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">AquAlign seed</text>
-              <text x="440" y="150" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">CORN HEIGHT ON JULY 20</text>
-              <text x="440" y="226" font-size="64" font-weight="900" fill="oklch(0.45 0.10 145)">7.1 ft</text>
-              <text x="440" y="252" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">from soaked seed</text>
-              <text x="440" y="320" font-size="40" font-weight="900" fill="oklch(0.44 0.02 38)">5.6 ft</text>
-              <text x="440" y="344" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">control rows</text>
-              <text x="440" y="390" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Field trial · Smith farm</text>
-              <text x="440" y="408" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Utopia, Ontario · 2012</text>
-            </g>
+          <!-- ===== scene 2: root and stem (800,0) ===== -->
+          <rect x="800" y="0" width="800" height="600" fill="#f5f8f2"/>
+          <rect x="800" y="400" width="800" height="200" fill="url(#bi-soil)"/>
+          <text x="840" y="56" class="mono" font-size="13" fill="oklch(0.50 0.145 38)" letter-spacing="1">2 · ROOT AND STEM</text>
+          <g transform="translate(800 0)"><g stroke="#efe2c4" stroke-width="3" fill="none" stroke-linecap="round"><path d="M150 400 Q 175 425 238 451" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 173 451 221 501" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 160 472 180 543" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 142 466 127 533" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 130 450 87 500" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 127 425 69 451" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 163 406 216 412" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M150 400 Q 137 407 84 414" data-fx="draw" data-k="2" data-range=".1,.8"/></g><g data-fx="grow" data-axis="y" data-k="2" data-range=".05,.75"><path d="M144 400 L147 195 L153 195 L156 400 Z" fill="url(#bi-stem)"/><path d="M150 367 C 194 311, 265 329, 298 388 C 251 352, 194 344, 150 376 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M150 334 C 108 282, 42 298, 11 354 C 56 321, 108 312, 150 343 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M150 302 C 189 252, 251 268, 280 320 C 238 289, 189 281, 150 311 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M150 271 C 114 225, 56 239, 29 288 C 68 259, 114 251, 150 280 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M150 240 C 184 197, 238 211, 262 256 C 226 229, 184 222, 150 249 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M150 195 l-12 -26 M150 195 l0 -32 M150 195 l12 -26 M150 195 l-20 -14 M150 195 l20 -14" stroke="#c9a23a" stroke-width="3" stroke-linecap="round"/></g><g stroke="#efe2c4" stroke-width="3" fill="none" stroke-linecap="round"><path d="M330 400 Q 367 434 447 468" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 362 468 425 535" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 344 495 371 591" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 319 489 299 577" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 302 467 247 534" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 296 434 222 468" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 352 408 419 416" data-fx="draw" data-k="2" data-range=".1,.8"/><path d="M330 400 Q 308 409 242 419" data-fx="draw" data-k="2" data-range=".1,.8"/></g><g data-fx="grow" data-axis="y" data-k="2" data-range=".05,.75"><path d="M324 400 L327 140 L333 140 L336 400 Z" fill="url(#bi-stem)"/><path d="M330 358 C 384 290, 470 312, 510 384 C 452 340, 384 330, 330 367 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M330 317 C 280 253, 199 273, 162 340 C 216 300, 280 290, 330 326 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M330 275 C 377 216, 452 235, 486 297 C 436 260, 377 250, 330 284 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M330 236 C 286 181, 217 198, 185 257 C 231 222, 286 213, 330 245 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M330 197 C 370 146, 435 162, 465 216 C 422 184, 370 176, 330 206 Z" fill="url(#bi-leaf)" stroke="#2f6b25" stroke-width=".8"/><path d="M330 140 l-12 -26 M330 140 l0 -32 M330 140 l12 -26 M330 140 l-20 -14 M330 140 l20 -14" stroke="#c9a23a" stroke-width="3" stroke-linecap="round"/></g></g>
+          <g data-particles="bi-r1" data-n="7" data-speed="70" data-only="2"></g>
+          <g data-particles="bi-r2" data-n="5" data-speed="60" data-only="2"></g>
+          <text x="950" y="584" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">Control</text>
+          <text x="1130" y="584" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">AquAlign seed</text>
+          <text x="1280" y="140" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">CORN HEIGHT, JULY 20</text>
+          <text x="1280" y="220" font-size="66" font-weight="900" fill="oklch(0.45 0.10 145)" data-fx="count" data-k="2" data-to="7.1" data-dec="1" data-suf=" ft" data-range=".1,.75">7.1 ft</text>
+          <text x="1282" y="246" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">from AquAlign-soaked seed</text>
+          <text x="1280" y="316" font-size="42" font-weight="900" fill="oklch(0.44 0.02 38)" data-fx="count" data-k="2" data-to="5.6" data-dec="1" data-suf=" ft" data-range=".1,.75">5.6 ft</text>
+          <text x="1282" y="340" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">control rows</text>
+          <text x="1280" y="380" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Field trial · Smith farm</text>
+          <text x="1280" y="396" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Utopia, Ontario · 2012</text>
 
-            <!-- scene 3: leaf and fruit -->
-            <g data-only="3">
-              <path d="M70 90 C 150 120, 200 150, 230 230" fill="none" stroke="oklch(0.45 0.10 145)" stroke-width="7" stroke-linecap="round"/>
-              <path d="M140 116 C 110 60, 40 70, 30 120 C 80 120, 110 140, 140 116 Z" fill="oklch(0.62 0.12 145)"/>
-              <path d="M190 150 C 230 100, 300 110, 320 150 C 270 160, 230 175, 190 150 Z" fill="oklch(0.62 0.12 145)"/>
-              <path d="M230 230 l-45 40 M230 230 l10 60 M230 230 l60 30" stroke="oklch(0.45 0.10 145)" stroke-width="4"/>
-              <circle cx="180" cy="300" r="38" fill="oklch(0.55 0.17 32)"/><circle cx="246" cy="320" r="40" fill="oklch(0.58 0.17 35)"/><circle cx="300" cy="278" r="34" fill="oklch(0.60 0.16 40)"/>
-              <circle cx="168" cy="288" r="8" fill="#fff" opacity="0.45"/><circle cx="234" cy="306" r="8" fill="#fff" opacity="0.45"/><circle cx="290" cy="266" r="7" fill="#fff" opacity="0.45"/>
-              <path d="M246 362 C 240 376, 252 380, 246 394" class="flow slow" stroke="oklch(0.55 0.17 32)" stroke-width="3" fill="none"/>
-              <rect x="186" y="398" width="120" height="44" rx="6" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-              <path d="M200 432 L246 408 L292 432 Z" fill="oklch(0.95 0.015 225)" stroke="oklch(0.44 0.02 38)" stroke-width="1"/>
-              <text x="246" y="466" text-anchor="middle" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">refractometer reads sugar (°Brix)</text>
-              <text x="440" y="150" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">AVERAGE BRIX, JULY AND AUGUST</text>
-              <text x="440" y="196" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">AquAlign greenhouse</text>
-              <rect x="440" y="206" width="246" height="34" fill="oklch(0.45 0.10 145)" class="growx"/>
-              <text x="694" y="232" font-size="24" font-weight="900" fill="oklch(0.45 0.10 145)">7.68</text>
-              <text x="440" y="276" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Control greenhouse</text>
-              <rect x="440" y="286" width="208" height="34" fill="oklch(0.85 0.01 38)" class="growx"/>
-              <text x="656" y="312" font-size="24" font-weight="900" fill="oklch(0.44 0.02 38)">6.5</text>
-              <text x="440" y="370" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Field trial · organic cherry tomatoes</text>
-              <text x="440" y="388" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Holland Marsh, Ontario · 2012</text>
-            </g>
+          <!-- ===== scene 3: leaf and fruit (0,600) ===== -->
+          <rect x="0" y="600" width="800" height="600" fill="#fbf6f1"/>
+          <g stroke="#e8ddd0" stroke-width="2" fill="none"><path d="M0 760 Q 200 640 400 760 Q 600 640 800 760"/><path d="M200 700 V1200 M600 700 V1200"/></g>
+          <text x="40" y="656" class="mono" font-size="13" fill="oklch(0.50 0.145 38)" letter-spacing="1">3 · LEAF AND FRUIT</text>
+          <path d="M90 1200 C 120 1050, 180 980, 220 900 C 236 870, 246 860, 250 852" stroke="url(#bi-stem)" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <path d="M150 1010 C 100 960, 40 980, 20 1020 C 70 1012, 110 1030, 150 1010 Z" fill="url(#bi-leaf)"/>
+          <path d="M200 930 C 240 870, 320 880, 350 920 C 300 930, 250 950, 200 930 Z" fill="url(#bi-leaf)"/>
+          <path d="M120 1080 C 170 1040, 240 1060, 260 1100 C 210 1100, 170 1110, 120 1080 Z" fill="url(#bi-leaf)"/>
+          <path d="M250 852 l-40 60 M250 852 l14 70 M250 852 l70 40" stroke="#3b7a2c" stroke-width="4" fill="none"/>
+          <g data-particles="bi-f1" data-n="6" data-speed="60" data-only="3"></g>
+          <g><circle cx="206" cy="940" r="40" fill="url(#bi-green)"/><circle cx="206" cy="940" r="40" fill="url(#bi-red)" data-fx="fade" data-k="3" data-range=".05,.6"/></g>
+          <g><circle cx="270" cy="958" r="44" fill="url(#bi-green)"/><circle cx="270" cy="958" r="44" fill="url(#bi-red)" data-fx="fade" data-k="3" data-range=".15,.7"/></g>
+          <g><circle cx="328" cy="904" r="36" fill="url(#bi-green)"/><circle cx="328" cy="904" r="36" fill="url(#bi-red)" data-fx="fade" data-k="3" data-range=".25,.8"/></g>
+          <g fill="#3b7a2c"><path d="M206 902 l-10 -8 l10 2 l2 -10 l4 10 l10 -2 l-8 8 Z"/><path d="M270 916 l-10 -8 l10 2 l2 -10 l4 10 l10 -2 l-8 8 Z"/><path d="M328 870 l-10 -8 l10 2 l2 -10 l4 10 l10 -2 l-8 8 Z"/></g>
+          <g transform="translate(170 1060)">
+            <rect width="190" height="46" rx="10" fill="#f4f5f6" stroke="#9aa0a6" stroke-width="2"/>
+            <rect x="190" y="12" width="34" height="22" rx="4" fill="#3a3f45"/>
+            <path d="M18 34 L60 12 L102 34 Z" fill="oklch(0.95 0.015 225)" stroke="#9aa0a6"/>
+            <rect x="116" y="14" width="60" height="18" rx="2" fill="#fff" stroke="#cfd3d6"/>
+            <rect x="116" y="14" width="60" height="18" fill="oklch(0.45 0.10 145)" opacity=".75" data-fx="grow" data-axis="x" data-k="3" data-range=".3,.85"/>
+          </g>
+          <text x="265" y="1134" text-anchor="middle" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">a refractometer reads sugar (°Brix)</text>
+          <text x="470" y="740" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">AVERAGE BRIX, JULY AND AUGUST</text>
+          <text x="470" y="786" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">AquAlign greenhouse</text>
+          <text x="770" y="786" text-anchor="end" font-size="26" font-weight="900" fill="oklch(0.45 0.10 145)" data-fx="count" data-k="3" data-to="7.68" data-dec="2" data-range=".2,.8">7.68</text>
+          <rect x="470" y="796" width="300" height="30" fill="#ece6de"/><rect x="470" y="796" width="230" height="30" fill="oklch(0.45 0.10 145)" data-fx="grow" data-axis="x" data-k="3" data-range=".2,.8"/>
+          <text x="470" y="866" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Control greenhouse</text>
+          <text x="770" y="866" text-anchor="end" font-size="26" font-weight="900" fill="oklch(0.44 0.02 38)" data-fx="count" data-k="3" data-to="6.5" data-dec="1" data-range=".2,.8">6.5</text>
+          <rect x="470" y="876" width="300" height="30" fill="#ece6de"/><rect x="470" y="876" width="195" height="30" fill="#b9b0a6" data-fx="grow" data-axis="x" data-k="3" data-range=".2,.8"/>
+          <text x="470" y="934" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Field trial · organic cherry tomatoes</text>
+          <text x="470" y="950" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Holland Marsh, Ontario · 2012</text>
 
-            <!-- scene 4: hen -->
-            <g data-only="4">
-              <path d="M30 96 H410" stroke="oklch(0.44 0.02 38)" stroke-width="10" stroke-linecap="round"/>
-              <g fill="oklch(0.44 0.02 38)"><rect x="96" y="100" width="8" height="26"/><rect x="216" y="100" width="8" height="26"/><rect x="336" y="100" width="8" height="26"/></g>
-              <path d="M100 130 V176" class="flow slow" stroke="oklch(0.62 0.06 225)" stroke-width="4"/>
-              <path d="M330 262 L396 168 L418 214 L404 300 Z" fill="oklch(0.36 0.10 38)"/>
-              <path d="M342 250 L410 196 L404 290 Z" fill="oklch(0.42 0.10 42)"/>
-              <ellipse cx="245" cy="305" rx="128" ry="82" fill="oklch(0.50 0.12 45)"/>
-              <path d="M196 288 C 246 256, 326 266, 346 316 C 296 336, 236 326, 196 288 Z" fill="oklch(0.42 0.10 42)"/>
-              <path d="M140 280 C 120 250, 112 228, 112 206" stroke="oklch(0.50 0.12 45)" stroke-width="44" stroke-linecap="round" fill="none"/>
-              <path d="M98 180 q6 -16 14 -2 q6 -16 14 0 q8 -12 10 6" fill="oklch(0.55 0.2 28)"/>
-              <path d="M92 204 l-22 -1 l19 12 Z" fill="oklch(0.75 0.13 80)"/>
-              <path d="M102 216 q-6 12 2 18 q8 -6 2 -18" fill="oklch(0.55 0.2 28)"/>
-              <circle cx="112" cy="198" r="4.5" fill="oklch(0.22 0.015 38)"/>
-              <path d="M215 382 V440 l-14 10 M215 440 l12 10 M275 382 V440 l-14 10 M275 440 l12 10" stroke="oklch(0.75 0.13 80)" stroke-width="6" stroke-linecap="round" fill="none"/>
-              <text x="220" y="76" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">nipple drinker line, metered daily</text>
-              <text x="440" y="150" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">WATER PER HEN PER DAY (US GAL)</text>
-              <text x="440" y="196" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Before install</text>
-              <rect x="440" y="206" width="250" height="34" fill="oklch(0.85 0.01 38)" class="growx"/>
-              <text x="440" y="276" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">After install</text>
-              <rect x="440" y="286" width="222" height="34" fill="oklch(0.45 0.10 145)" class="growx"/>
-              <text x="698" y="232" class="mono" font-size="15" font-weight="500" fill="oklch(0.44 0.02 38)">0.0500</text>
-              <text x="670" y="312" class="mono" font-size="15" font-weight="500" fill="oklch(0.45 0.10 145)">0.0444</text>
-              <text x="440" y="370" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Producer data · 42,000 ISA Browns</text>
-              <text x="440" y="388" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">Woodstock, Ontario · 2013 · before and after</text>
-            </g>
-          </svg>
-          <div class="anim-bar"><i></i></div>
+          <!-- ===== scene 4: animals (800,600) ===== -->
+          <rect x="800" y="600" width="800" height="600" fill="#f7f2ec"/>
+          <rect x="800" y="1110" width="800" height="90" fill="#e7ddd0"/>
+          <text x="840" y="656" class="mono" font-size="13" fill="oklch(0.50 0.145 38)" letter-spacing="1">4 · ANIMALS</text>
+          <rect x="830" y="690" width="400" height="16" rx="8" fill="url(#bi-pipe)"/>
+          <g fill="#6c737a"><rect x="895" y="704" width="10" height="24" rx="2"/><rect x="1015" y="704" width="10" height="24" rx="2"/><rect x="1135" y="704" width="10" height="24" rx="2"/></g>
+          <g data-particles="bi-d1" data-n="2" data-speed="55" data-only="4"></g>
+          <g transform="translate(800 600)">
+            <path d="M330 262 L396 168 L418 214 L404 300 Z" fill="#5a2a12"/>
+            <path d="M342 250 L410 196 L404 290 Z" fill="#7f3f1b"/>
+            <ellipse cx="245" cy="305" rx="128" ry="82" fill="url(#bi-hen)"/>
+            <path d="M196 288 C 246 256, 326 266, 346 316 C 296 336, 236 326, 196 288 Z" fill="#6e3416" opacity=".85"/>
+            <path d="M140 280 C 120 250, 112 228, 112 206" stroke="#b46c37" stroke-width="44" stroke-linecap="round" fill="none"/>
+            <path d="M98 180 q6 -16 14 -2 q6 -16 14 0 q8 -12 10 6" fill="#d23a24"/>
+            <path d="M92 204 l-22 -1 l19 12 Z" fill="#e8b23a"/>
+            <path d="M102 216 q-6 12 2 18 q8 -6 2 -18" fill="#d23a24"/>
+            <circle cx="112" cy="198" r="4.5" fill="#1d1a18"/>
+            <path d="M215 382 V440 l-14 10 M215 440 l12 10 M275 382 V440 l-14 10 M275 440 l12 10" stroke="#e0a83a" stroke-width="6" stroke-linecap="round" fill="none"/>
+          </g>
+          <text x="1030" y="676" text-anchor="middle" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">drinker line, metered daily</text>
+          <text x="1270" y="740" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">WATER PER HEN PER DAY (GAL)</text>
+          <text x="1270" y="786" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">Before</text>
+          <text x="1570" y="786" text-anchor="end" class="mono" font-size="17" font-weight="500" fill="oklch(0.44 0.02 38)">0.0500</text>
+          <rect x="1270" y="796" width="300" height="30" fill="#b9b0a6" data-fx="grow" data-axis="x" data-k="4" data-range=".1,.6"/>
+          <text x="1270" y="866" font-size="15" font-weight="700" fill="oklch(0.22 0.015 38)">After install</text>
+          <text x="1570" y="866" text-anchor="end" class="mono" font-size="17" font-weight="500" fill="oklch(0.45 0.10 145)" data-fx="count" data-k="4" data-to="0.0444" data-from="0.05" data-dec="4" data-range=".25,.8">0.0444</text>
+          <rect x="1270" y="876" width="266" height="30" fill="oklch(0.45 0.10 145)" data-fx="grow" data-axis="x" data-k="4" data-range=".2,.75"/>
+          <text x="1270" y="970" font-size="40" font-weight="900" fill="oklch(0.45 0.10 145)" data-fx="count" data-k="4" data-to="11.1" data-dec="1" data-suf="% less" data-range=".3,.85">11.1% less</text>
+          <text x="1270" y="1010" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Producer data · 42,000 ISA Browns</text>
+          <text x="1270" y="1026" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">Woodstock, Ontario · 2013 · before and after</text>
+          <!-- frame lines for the overview -->
+          <path d="M800 0 V1200 M0 600 H1600" stroke="#e2d9ce" stroke-width="3"/>
+        </svg>
+        <img class="ph ph-end" src="img/corn-cobs-treated-left-control-right.jpg" alt="">
+        <span class="ph-tag ph-tag-start">Photo · Smith farm, Utopia, Ontario, June 2012</span>
+        <span class="ph-tag ph-tag-end">What comes out · treated left, control right · harvest 2012</span>
+        <div class="scrolly-bar"><i></i></div>
+      </div>
+      <div class="scrolly-side">
+        <span class="anim-count" aria-live="polite"></span>
+        <div class="anim-cap" data-cap="0">
+          <h3>Start in a real field.</h3>
+          <p>Soybeans on the Smith farm in Ontario, June 2012. Scroll down into the soil, where water does its first job.</p>
         </div>
-        <div class="anim-side">
-          <span class="anim-count" aria-live="polite"></span>
-          <div class="anim-cap" data-cap="1">
-            <h3>Seed: water goes in first.</h3>
-            <p>A seed starts by soaking up water (imbibition). How fast and how evenly that happens shapes germination and early vigour.</p>
-            <p><b>Measured:</b> 98% vs 80% germination in a 10-day alfalfa tray demo.</p>
-            <p class="verify">Biology: standard seed physiology. Result: company demo, one tray each side.</p>
-          </div>
-          <div class="anim-cap" data-cap="2">
-            <h3>Root and stem: water under pressure.</h3>
-            <p>Roots draw water in. Water pressure inside the cells (turgor) holds the plant upright and drives cell growth.</p>
-            <p><b>Measured:</b> corn from AquAlign-soaked seed stood 7.1 ft on July 20, vs 5.6 ft in the control rows.</p>
-            <p class="verify">Biology: standard plant physiology. Result: one field, one season.</p>
-          </div>
-          <div class="anim-cap" data-cap="3">
-            <h3>Leaf and fruit: water and light become sugar.</h3>
-            <p>Leaves turn water, carbon dioxide and light into sugar. Brix, read with a handheld refractometer, is the sugar content of the juice and a standard quality measure.</p>
-            <p><b>Measured:</b> 7.68 vs 6.5 °Brix in organic greenhouse tomatoes.</p>
-            <p class="verify">Biology: photosynthesis. Result: six readings each side.</p>
-          </div>
-          <div class="anim-cap" data-cap="4">
-            <h3>Animals: every barn is on a meter.</h3>
-            <p>Livestock and poultry take in more water than feed, and a modern barn logs its water use every day. The first measured case is a laying flock.</p>
-            <p><b>Measured:</b> 0.0444 vs 0.0500 gallons per hen per day (11.1% less), while production declined more slowly.</p>
-            <p class="verify">Biology: animal water intake. Result: producer records, before and after.</p>
-          </div>
-          <div class="anim-ctrl" role="group" aria-label="Animation steps"></div>
+        <div class="anim-cap" data-cap="1">
+          <h3>Seed: water goes in first.</h3>
+          <p>A seed starts by soaking up water (imbibition). How fast and how evenly that happens shapes germination and early vigour.</p>
+          <p><b>Measured:</b> 98% vs 80% germination in a 10-day alfalfa tray demo.</p>
+          <p class="verify">Biology: standard seed physiology. Result: company demo, one tray each side.</p>
         </div>
+        <div class="anim-cap" data-cap="2">
+          <h3>Root and stem: water under pressure.</h3>
+          <p>Roots draw water in. Water pressure in the cells (turgor) holds the plant upright and drives growth.</p>
+          <p><b>Measured:</b> corn from AquAlign-soaked seed stood 7.1 ft on July 20, vs 5.6 ft in the control rows.</p>
+          <p class="verify">Biology: standard plant physiology. Result: one field, one season.</p>
+        </div>
+        <div class="anim-cap" data-cap="3">
+          <h3>Leaf and fruit: water and light become sugar.</h3>
+          <p>Leaves turn water, carbon dioxide and light into sugar. Brix, read with a handheld refractometer, is the sugar in the juice and a standard quality measure.</p>
+          <p><b>Measured:</b> 7.68 vs 6.5 °Brix in organic greenhouse tomatoes.</p>
+          <p class="verify">Biology: photosynthesis. Result: six readings each side.</p>
+        </div>
+        <div class="anim-cap" data-cap="4">
+          <h3>Animals: every barn is on a meter.</h3>
+          <p>Livestock and poultry take in more water than feed, and a modern barn logs its water use every day. The first measured case is a laying flock.</p>
+          <p><b>Measured:</b> 11.1% less water per hen, while production declined more slowly.</p>
+          <p class="verify">Biology: animal water intake. Result: producer records, before and after.</p>
+        </div>
+        <div class="anim-cap" data-cap="end">
+          <h3>Then it shows up at harvest.</h3>
+          <p>Seed, root, fruit, animal: four places water does work. In 2012, the corn grown from treated seed filled 80 bags to the control's 61.</p>
+        </div>
+        <div class="anim-ctrl" role="group" aria-label="Jump to a step"></div>
+        <p class="scroll-hint">Scroll to move through it, or tap a step.</p>
       </div>
     </div>
+  </div>
+</div>
   </div>
 </section>
 
@@ -715,75 +717,105 @@
     <h2 class="sec-title">Prove it on your own operation</h2>
     <p class="sec-lede">The strongest evidence you can get is your own. Every pilot runs against a control you choose.</p>
 
-    <div class="anim" data-anim aria-label="How a side-by-side pilot works">
-      <div class="anim-frame">
-        <div class="anim-stage" style="background:#fff">
-          <svg viewBox="0 0 800 500" role="img" aria-labelledby="a3t">
-            <defs><pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="8" height="8" fill="#fff"/><rect width="3" height="8" fill="oklch(0.85 0.01 38)"/></pattern></defs>
-            <title id="a3t">Split screen of a control line and an AquAlign line through a pilot</title>
-            <path d="M400 20 V480" stroke="oklch(0.85 0.01 38)" stroke-width="2" stroke-dasharray="6 6"/>
-            <text x="200" y="44" text-anchor="middle" class="mono" font-size="15" font-weight="500" fill="oklch(0.44 0.02 38)">CONTROL</text>
-            <text x="600" y="44" text-anchor="middle" class="mono" font-size="15" font-weight="500" fill="oklch(0.50 0.145 38)">AQUALIGN</text>
-            <rect x="30" y="99" width="340" height="22" fill="oklch(0.95 0.015 225)"/><rect x="430" y="99" width="340" height="22" fill="oklch(0.95 0.015 225)"/>
-            <path d="M30 98 H370 M30 122 H370 M430 98 H770 M430 122 H770" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-            <path d="M30 110 H370 M430 110 H770" class="flow" stroke="oklch(0.62 0.06 225)" stroke-width="4"/>
-            <!-- step 1: water test -->
-            <g data-only="1">
-              <g transform="translate(184 150)"><rect width="32" height="80" rx="16" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/><rect x="3" y="34" width="26" height="43" rx="13" fill="oklch(0.95 0.015 225)"/></g>
-              <g transform="translate(584 150)"><rect width="32" height="80" rx="16" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/><rect x="3" y="34" width="26" height="43" rx="13" fill="oklch(0.95 0.015 225)"/></g>
-              <text x="200" y="262" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">water analysis</text>
-              <text x="600" y="262" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">water analysis</text>
+    <div class="scrolly" data-steps="5" data-focal="400,330" data-zoom="0.16" data-endzoom="0.14" data-cams="0 0 800 600|0 0 800 600|400 90 400 300|0 0 800 600|0 0 800 600|0 0 800 600" data-outro="0 0 800 600">
+  <div class="scrolly-sticky">
+    <div class="scrolly-grid">
+      <div class="scrolly-frame">
+        <img class="ph ph-start" src="img/vanhart-greenhouse-2012.jpg" alt="A tomato greenhouse at planting, Holland Marsh, Ontario, June 2012">
+        <svg viewBox="0 0 800 600" role="img" aria-labelledby="pi-t" preserveAspectRatio="xMidYMid slice">
+          <title id="pi-t">Split screen of a control line and an AquAlign line through a pilot</title>
+          <defs>
+            <linearGradient id="pi-pipe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c3035"/><stop offset=".32" stop-color="#7a828b"/><stop offset=".55" stop-color="#4b5159"/><stop offset="1" stop-color="#202327"/></linearGradient>
+            <linearGradient id="pi-blue" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b2f78"/><stop offset=".3" stop-color="#4f8de8"/><stop offset="1" stop-color="#0a2763"/></linearGradient>
+            <linearGradient id="pi-blk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4a4a"/><stop offset="1" stop-color="#0c0c0c"/></linearGradient>
+            <linearGradient id="pi-glass" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#dfe9f2"/><stop offset=".4" stop-color="#ffffff"/><stop offset="1" stop-color="#c9d7e3"/></linearGradient>
+            <linearGradient id="pi-leaf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6fae4c"/><stop offset="1" stop-color="#3b7a2c"/></linearGradient>
+            <pattern id="pi-hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><rect width="4" height="10" fill="#d8d2ca"/></pattern>
+            <g id="pi-plant"><path d="M0 0 V-58" stroke="#3b7a2c" stroke-width="4"/><path d="M0 -22 C -10 -34, -28 -34, -32 -22 C -22 -26, -10 -24, 0 -22 Z M0 -38 C 10 -50, 28 -50, 32 -38 C 22 -42, 10 -40, 0 -38 Z M0 -56 C -8 -66, -20 -66, -22 -58 C -14 -60, -8 -58, 0 -56 Z" fill="url(#pi-leaf)"/></g>
+            <path id="pi-l" d="M-10 200 H398"/><path id="pi-r" d="M402 200 H810"/>
+          </defs>
+          <rect width="400" height="600" fill="#f6f4f1"/><rect x="400" width="400" height="600" fill="#f2f7ef"/>
+          <g stroke="#e0d9cf" stroke-width="2" fill="none"><path d="M20 330 Q 200 150 380 330 M420 330 Q 600 150 780 330"/><path d="M20 330 V560 M380 330 V560 M420 330 V560 M780 330 V560"/></g>
+          <rect x="0" y="505" width="400" height="95" fill="#d9cdbd"/><rect x="400" y="505" width="400" height="95" fill="#d4ccba"/>
+          <path d="M400 0 V600" stroke="#cfc6bb" stroke-width="3" stroke-dasharray="8 8"/>
+          <text x="200" y="52" text-anchor="middle" class="mono" font-size="16" font-weight="500" letter-spacing="2" fill="oklch(0.44 0.02 38)">CONTROL</text>
+          <text x="600" y="52" text-anchor="middle" class="mono" font-size="16" font-weight="500" letter-spacing="2" fill="oklch(0.50 0.145 38)">AQUALIGN</text>
+          <rect x="0" y="186" width="398" height="28" fill="url(#pi-pipe)"/><rect x="402" y="186" width="398" height="28" fill="url(#pi-pipe)"/>
+          <g data-particles="pi-l" data-n="12" data-speed="90" data-s="1"></g>
+          <g data-particles="pi-r" data-n="12" data-speed="90" data-s="1"></g>
+          <!-- step 1: water test -->
+          <g data-only="1">
+            <g transform="translate(184 250)"><rect width="32" height="96" rx="16" fill="url(#pi-glass)" stroke="#8c949c" stroke-width="2"/><rect x="4" y="40" width="24" height="52" rx="12" fill="oklch(0.85 0.04 225)" data-fx="grow" data-axis="y" data-k="1" data-range=".1,.6"/><rect x="-6" y="-8" width="44" height="12" rx="3" fill="#5d646b"/></g>
+            <g transform="translate(584 250)"><rect width="32" height="96" rx="16" fill="url(#pi-glass)" stroke="#8c949c" stroke-width="2"/><rect x="4" y="40" width="24" height="52" rx="12" fill="oklch(0.85 0.04 225)" data-fx="grow" data-axis="y" data-k="1" data-range=".1,.6"/><rect x="-6" y="-8" width="44" height="12" rx="3" fill="#5d646b"/></g>
+            <g class="mono" font-size="13" fill="oklch(0.22 0.015 38)" data-fx="fade" data-k="1" data-range=".4,.8"><text x="200" y="378" text-anchor="middle">water analysis</text><text x="600" y="378" text-anchor="middle">water analysis</text></g>
+          </g>
+          <!-- step 2: install -->
+          <g data-s="2">
+            <g data-fx="rise" data-k="2" data-range=".2,.65">
+              <rect x="583" y="120" width="34" height="58" rx="3" fill="#d9dde1" stroke="#9aa0a6"/>
+              <rect x="568" y="176" width="64" height="48" rx="8" fill="url(#pi-blk)"/>
+              <path d="M574 224 H626 V306 Q626 318 614 318 H586 Q574 318 574 306 Z" fill="url(#pi-blue)"/>
+              <rect x="582" y="230" width="5" height="80" rx="2" fill="#fff" opacity=".25"/>
+              <rect x="580" y="196" width="40" height="11" rx="1" fill="#f4f4f4"/>
+              <text x="600" y="204" text-anchor="middle" font-size="6.5" font-weight="800" fill="#1b3d7a">AquAlign</text>
             </g>
-            <!-- step 2: install -->
-            <g data-s="2">
-              <rect x="572" y="84" width="56" height="34" rx="4" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-              <rect x="580" y="118" width="40" height="84" rx="10" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2"/>
-              <text x="600" y="106" text-anchor="middle" font-size="11" font-weight="800" fill="oklch(0.50 0.145 38)">AQ</text>
-              <text x="200" y="160" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.44 0.02 38)">left as is</text>
+            <g class="mono" font-size="12" fill="oklch(0.44 0.02 38)" data-fx="fade" data-k="2" data-range=".5,.9"><text x="200" y="250" text-anchor="middle">left as is</text><text x="672" y="270">installed</text></g>
+          </g>
+          <!-- step 3: same everything -->
+          <g data-s="3">
+            <g data-fx="grow" data-axis="y" data-k="3" data-range=".05,.7">
+              <use href="#pi-plant" x="70" y="500"/><use href="#pi-plant" x="140" y="500"/><use href="#pi-plant" x="210" y="500"/><use href="#pi-plant" x="280" y="500"/><use href="#pi-plant" x="350" y="500"/>
+              <use href="#pi-plant" x="450" y="500"/><use href="#pi-plant" x="520" y="500"/><use href="#pi-plant" x="590" y="500"/><use href="#pi-plant" x="660" y="500"/><use href="#pi-plant" x="730" y="500"/>
             </g>
-            <!-- step 3: same everything -->
-            <g data-s="3">
-              <path d="M40 330 H360 M440 330 H760" stroke="oklch(0.50 0.145 38)" stroke-width="2"/>
-              <g fill="none" stroke="oklch(0.45 0.10 145)" stroke-width="4" stroke-linecap="round">
-                <path d="M80 330 V290 M80 305 q-14 -10 -22 -4 M80 296 q14 -10 22 -4"/><path d="M150 330 V290 M150 305 q-14 -10 -22 -4 M150 296 q14 -10 22 -4"/><path d="M220 330 V290 M220 305 q-14 -10 -22 -4 M220 296 q14 -10 22 -4"/><path d="M290 330 V290 M290 305 q-14 -10 -22 -4 M290 296 q14 -10 22 -4"/>
-                <path d="M480 330 V290 M480 305 q-14 -10 -22 -4 M480 296 q14 -10 22 -4"/><path d="M550 330 V290 M550 305 q-14 -10 -22 -4 M550 296 q14 -10 22 -4"/><path d="M620 330 V290 M620 305 q-14 -10 -22 -4 M620 296 q14 -10 22 -4"/><path d="M690 330 V290 M690 305 q-14 -10 -22 -4 M690 296 q14 -10 22 -4"/>
-              </g>
-              <text x="400" y="360" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)" style="paint-order:stroke" stroke="#fff" stroke-width="8">same seed · same feed · same schedule</text>
+            <g data-fx="fade" data-k="3" data-range=".4,.85"><rect x="230" y="526" width="340" height="30" rx="15" fill="#fff"/><text x="400" y="546" text-anchor="middle" class="mono" font-size="13" fill="oklch(0.22 0.015 38)">same seed · same feed · same schedule</text></g>
+          </g>
+          <!-- step 4: measure -->
+          <g data-s="4">
+            <g data-fx="fade" data-k="4" data-range="0,.3">
+              <rect x="40" y="330" width="320" height="82" rx="8" fill="#fff" stroke="#d8d2ca"/>
+              <rect x="440" y="330" width="320" height="82" rx="8" fill="#fff" stroke="#d8d2ca"/>
+              <text x="56" y="352" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">YOUR MEASURE, YOUR RECORDS</text>
+              <text x="456" y="352" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">YOUR MEASURE, YOUR RECORDS</text>
+              <rect x="56" y="366" width="250" height="30" fill="#f3efea"/><rect x="456" y="366" width="250" height="30" fill="#f3efea"/>
             </g>
-            <!-- step 4: measure -->
-            <g data-s="4">
-              <text x="40" y="402" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">YOUR MEASURE</text>
-              <text x="440" y="402" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">YOUR MEASURE</text>
-              <rect x="40" y="412" width="300" height="30" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="1.5"/>
-              <rect x="440" y="412" width="300" height="30" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="1.5"/>
-              <rect x="42" y="414" width="296" height="26" fill="url(#hatch)" class="growx"/>
-              <rect x="442" y="414" width="296" height="26" fill="url(#hatch)" class="growx"/>
-              <text x="352" y="434" font-size="22" font-weight="900" fill="oklch(0.22 0.015 38)">?</text>
-              <text x="752" y="434" font-size="22" font-weight="900" fill="oklch(0.45 0.10 145)">?</text>
-              <text x="400" y="470" text-anchor="middle" class="mono" font-size="12" fill="oklch(0.44 0.02 38)">germination · Brix · water per head · eggs · gain · yield</text>
+            <rect x="56" y="366" width="250" height="30" fill="url(#pi-hatch)" data-fx="grow" data-axis="x" data-k="4" data-range=".15,.8"/>
+            <rect x="456" y="366" width="250" height="30" fill="url(#pi-hatch)" data-fx="grow" data-axis="x" data-k="4" data-range=".15,.8"/>
+            <g data-fx="fade" data-k="4" data-range=".6,.95" font-size="28" font-weight="900"><text x="318" y="392" fill="oklch(0.22 0.015 38)">?</text><text x="718" y="392" fill="oklch(0.45 0.10 145)">?</text></g>
+          </g>
+          <!-- step 5: review -->
+          <g data-s="5">
+            <g data-fx="rise" data-k="5" data-range=".05,.6">
+              <rect x="250" y="118" width="300" height="250" rx="8" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2.5"/>
+              <rect x="250" y="118" width="300" height="48" rx="8" fill="oklch(0.36 0.10 38)"/>
+              <rect x="250" y="150" width="300" height="16" fill="oklch(0.36 0.10 38)"/>
+              <text x="400" y="149" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">Pilot review</text>
+              <g class="mono" font-size="11" fill="oklch(0.44 0.02 38)"><text x="276" y="194">CONTROL</text><text x="420" y="194">AQUALIGN</text></g>
+              <path d="M276 214 H384 M420 214 H528 M276 240 H370 M420 240 H516 M276 266 H380 M420 266 H500" stroke="#e5dfd7" stroke-width="9" stroke-linecap="round"/>
+              <text x="400" y="320" text-anchor="middle" font-size="20" font-weight="800" fill="oklch(0.45 0.10 145)">Your data. Your call.</text>
+              <text x="400" y="344" text-anchor="middle" class="mono" font-size="11" fill="oklch(0.44 0.02 38)">you keep every number</text>
             </g>
-            <!-- step 5: report -->
-            <g data-s="5">
-              <rect x="262" y="140" width="276" height="230" rx="6" fill="#fff" stroke="oklch(0.22 0.015 38)" stroke-width="2.5"/>
-              <rect x="262" y="140" width="276" height="44" rx="6" fill="oklch(0.36 0.10 38)"/>
-              <text x="400" y="169" text-anchor="middle" font-size="17" font-weight="800" fill="#fff">Pilot review</text>
-              <path d="M290 214 H470 M290 242 H510 M290 270 H450 M290 298 H500" stroke="oklch(0.85 0.01 38)" stroke-width="8" stroke-linecap="round"/>
-              <text x="400" y="346" text-anchor="middle" font-size="18" font-weight="800" fill="oklch(0.45 0.10 145)">Your data. Your call.</text>
-            </g>
-          </svg>
-          <div class="anim-bar"><i></i></div>
-        </div>
-        <div class="anim-side">
-          <span class="anim-count" aria-live="polite"></span>
-          <div class="anim-cap" data-cap="1"><h3>Test the water first.</h3><p>Every pilot starts with a water analysis. AquAlign doesn't filter or treat water, so if your water has a problem, we tell you before anything is installed.</p></div>
-          <div class="anim-cap" data-cap="2"><h3>Install on one line. Leave the other alone.</h3><p>One house, bay, block or pivot gets AquAlign. A matching one stays as your control.</p></div>
-          <div class="anim-cap" data-cap="3"><h3>Same seed, same feed, same schedule.</h3><p>Everything else stays the same on both sides, so the only difference is the water.</p></div>
-          <div class="anim-cap" data-cap="4"><h3>Measure what you already measure.</h3><p>Germination counts, Brix, water meters, eggs, weight gain, yield at harvest. Your numbers, from your own records.</p></div>
-          <div class="anim-cap" data-cap="5"><h3>Review it together. You keep the data.</h3><p>If the difference isn't there, you will see it. If it is, you will have your own proof instead of ours.</p></div>
-          <div class="anim-ctrl" role="group" aria-label="Animation steps"></div>
-        </div>
+          </g>
+        </svg>
+        <img class="ph ph-end" src="img/soy-roots-control-treated.jpg" alt="" style="object-position:50% 88%">
+        <span class="ph-tag ph-tag-start">Photo · tomato greenhouse at planting, Ontario, 2012</span>
+        <span class="ph-tag ph-tag-end">A real control: soybean roots, control left, treated right · 2012</span>
+        <div class="scrolly-bar"><i></i></div>
+      </div>
+      <div class="scrolly-side">
+        <span class="anim-count" aria-live="polite"></span>
+        <div class="anim-cap" data-cap="0"><h3>Picture your own operation.</h3><p>A greenhouse at planting in 2012, the start of one of our trials. Every pilot starts with an operation like yours, split in two.</p></div>
+        <div class="anim-cap" data-cap="1"><h3>Test the water first.</h3><p>Every pilot starts with a water analysis. AquAlign doesn't filter or treat water, so if your water has a problem, we tell you before anything is installed.</p></div>
+        <div class="anim-cap" data-cap="2"><h3>Install on one line. Leave the other alone.</h3><p>One house, bay, block or pivot gets AquAlign. A matching one stays as your control.</p></div>
+        <div class="anim-cap" data-cap="3"><h3>Same seed, same feed, same schedule.</h3><p>Everything else stays the same on both sides, so the only difference is the water.</p></div>
+        <div class="anim-cap" data-cap="4"><h3>Measure what you already measure.</h3><p>Germination counts, Brix, water meters, eggs, weight gain, yield at harvest. Your numbers, from your own records.</p></div>
+        <div class="anim-cap" data-cap="5"><h3>Review it together. You keep the data.</h3><p>If the difference isn't there, you will see it. If it is, you will have your own proof instead of ours.</p></div>
+        <div class="anim-cap" data-cap="end"><h3>This is what a control looks like.</h3><p>Soybean roots from the same field in 2012, untreated on the left, treated on the right. Your pilot produces a picture like this, from your own ground.</p></div>
+        <div class="anim-ctrl" role="group" aria-label="Jump to a step"></div>
+        <p class="scroll-hint">Scroll to move through it, or tap a step.</p>
       </div>
     </div>
+  </div>
+</div>
 
     <div class="contact-grid" style="margin-top:clamp(2.5rem,5vw,4rem)">
       <div class="contact-lede">
