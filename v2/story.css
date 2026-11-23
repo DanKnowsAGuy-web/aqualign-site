@@ -302,3 +302,15 @@
 }
 
 .hero-title { max-width: 20ch; font-size: clamp(2.4rem, 6.2vw, 4.4rem); }
+
+/* Hero legibility: darker scrim on the text side, lighter on the photo side */
+.hero-scrim {
+  background:
+    linear-gradient(90deg, oklch(0.18 0.04 38 / 0.88) 0%, oklch(0.18 0.04 38 / 0.72) 38%, oklch(0.18 0.04 38 / 0.25) 70%, oklch(0.18 0.04 38 / 0.1) 100%),
+    linear-gradient(180deg, oklch(0.18 0.04 38 / 0.15) 0%, oklch(0.18 0.04 38 / 0.45) 100%);
+}
+.hero-sub { font-size: clamp(1.15rem, 1.9vw, 1.35rem); text-shadow: 0 1px 2px oklch(0.15 0.03 38 / 0.8); max-width: 44ch; }
+.hero-title { text-shadow: 0 2px 18px oklch(0.15 0.04 38 / 0.5); }
+@media (max-width: 720px) {
+  .hero-scrim { background: linear-gradient(180deg, oklch(0.18 0.04 38 / 0.45) 0%, oklch(0.18 0.04 38 / 0.82) 45%, oklch(0.18 0.04 38 / 0.88) 100%); }
+}
