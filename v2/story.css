@@ -301,4 +301,4 @@
   .scrolly .anim-dot { width: 2rem; height: 2rem; font-size: 0.85rem; }
 }
 
-.hero-title { max-width: 18ch; font-size: clamp(2.4rem, 6.2vw, 4.4rem); }
+.hero-title { max-width: 20ch; font-size: clamp(2.4rem, 6.2vw, 4.4rem); }
