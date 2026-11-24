@@ -331,3 +331,21 @@
 .record-t { grid-column: 1; color: var(--muted); font-size: 1rem; }
 .record-go { grid-column: 2; grid-row: 1 / span 2; font-family: var(--font-display); font-weight: 700; color: #fff; background: var(--clay); padding: 0.7rem 1.3rem; border-radius: 3px; }
 @media (max-width: 720px) { .impact-gal figure { grid-column: span 12; } .record-link { grid-template-columns: 1fr; } .record-go { grid-column: 1; grid-row: auto; justify-self: start; margin-top: 0.5rem; } }
+
+/* expandable photo set on the main page */
+.more-photos { margin-top: 1.25rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.more-photos > summary {
+  list-style: none; cursor: pointer; padding: 1rem 0; display: flex; align-items: center; gap: 0.6rem;
+  font-family: var(--font-display); font-weight: 800; font-size: 1.1rem; color: var(--clay);
+}
+.more-photos > summary::-webkit-details-marker { display: none; }
+.more-photos > summary::before { content: "+"; font-weight: 500; font-size: 1.6rem; line-height: 1; transition: rotate 0.3s var(--ease); }
+.more-photos[open] > summary::before { rotate: 45deg; }
+.more-photos .mp-close, .more-photos[open] .mp-open { display: none; }
+.more-photos[open] .mp-close { display: inline; }
+.more-photos[open] .mp-body { animation: fadeup 0.4s var(--ease); }
+.mp-body { padding-bottom: 1.5rem; }
+.mp-body .gal-group h3 { color: var(--ink); border-top-color: var(--line); }
+.mp-body .gal-group h3 span { color: var(--muted); }
+.mp-body .gal figcaption { color: var(--muted); }
+.mp-body .gal figcaption b { color: var(--ink); }
